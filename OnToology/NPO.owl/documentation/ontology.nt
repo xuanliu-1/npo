@@ -1,0 +1,341 @@
+<http://www.semanticweb.org/neighbourhood-photovoltaic-generation-ontology> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+# 
+# 
+# #################################################################
+# #
+# #    Object Properties
+# #
+# #################################################################
+# 
+# 
+# http://www.semanticweb.org/neighbourhood-photovoltaic-generation-ontology#:hasConstant
+<http://www.semanticweb.org/neighbourhood-photovoltaic-generation-ontology#:hasConstant> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+# 
+# http://www.semanticweb.org/neighbourhood-photovoltaic-generation-ontology#:hasProperty
+<http://www.semanticweb.org/neighbourhood-photovoltaic-generation-ontology#:hasProperty> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+# 
+# http://www.semanticweb.org/neighbourhood-photovoltaic-generation-ontology#:isLocatedIn
+<http://www.semanticweb.org/neighbourhood-photovoltaic-generation-ontology#:isLocatedIn> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+# 
+# http://www.semanticweb.org/neighbourhood-photovoltaic-generation-ontology#:isPartOf
+<http://www.semanticweb.org/neighbourhood-photovoltaic-generation-ontology#:isPartOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Data properties
+# #
+# #################################################################
+# 
+# 
+# http://www.semanticweb.org/neighbourhood-photovoltaic-generation-ontology#hasAzimuth
+<http://www.semanticweb.org/neighbourhood-photovoltaic-generation-ontology#hasAzimuth> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/neighbourhood-photovoltaic-generation-ontology#hasAzimuth> <http://www.w3.org/2000/01/rdf-schema#domain> _:genid1 .
+_:genid1 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+_:genid1 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/neighbourhood-photovoltaic-generation-ontology#hasAzimuth> .
+_:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+# 
+# http://www.semanticweb.org/neighbourhood-photovoltaic-generation-ontology#hasBAPVAlbedoFactor
+<http://www.semanticweb.org/neighbourhood-photovoltaic-generation-ontology#hasBAPVAlbedoFactor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/neighbourhood-photovoltaic-generation-ontology#hasBAPVAlbedoFactor> <http://www.w3.org/2000/01/rdf-schema#domain> _:genid2 .
+_:genid2 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+_:genid2 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/neighbourhood-photovoltaic-generation-ontology#hasAzimuth> .
+_:genid2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+# 
+# http://www.semanticweb.org/neighbourhood-photovoltaic-generation-ontology#hasBandgapUtilization
+<http://www.semanticweb.org/neighbourhood-photovoltaic-generation-ontology#hasBandgapUtilization> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/neighbourhood-photovoltaic-generation-ontology#hasBandgapUtilization> <http://www.w3.org/2000/01/rdf-schema#domain> _:genid3 .
+_:genid3 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+_:genid3 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/neighbourhood-photovoltaic-generation-ontology#hasAzimuth> .
+_:genid3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+# 
+# http://www.semanticweb.org/neighbourhood-photovoltaic-generation-ontology#hasBoltzmannConstant
+<http://www.semanticweb.org/neighbourhood-photovoltaic-generation-ontology#hasBoltzmannConstant> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/neighbourhood-photovoltaic-generation-ontology#hasBoltzmannConstant> <http://www.w3.org/2000/01/rdf-schema#domain> _:genid4 .
+_:genid4 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+_:genid4 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/neighbourhood-photovoltaic-generation-ontology#hasBoltzmannConstant> .
+_:genid4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+# 
+# http://www.semanticweb.org/neighbourhood-photovoltaic-generation-ontology#hasCableLossFactor
+<http://www.semanticweb.org/neighbourhood-photovoltaic-generation-ontology#hasCableLossFactor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/neighbourhood-photovoltaic-generation-ontology#hasCableLossFactor> <http://www.w3.org/2000/01/rdf-schema#domain> _:genid5 .
+_:genid5 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+_:genid5 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/neighbourhood-photovoltaic-generation-ontology#hasBoltzmannConstant> .
+_:genid5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+# 
+# http://www.semanticweb.org/neighbourhood-photovoltaic-generation-ontology#hasConfigurationMode
+<http://www.semanticweb.org/neighbourhood-photovoltaic-generation-ontology#hasConfigurationMode> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/neighbourhood-photovoltaic-generation-ontology#hasConfigurationMode> <http://www.w3.org/2000/01/rdf-schema#domain> _:genid6 .
+_:genid6 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+_:genid6 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/neighbourhood-photovoltaic-generation-ontology#hasConfigurationMode> .
+_:genid6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+# 
+# http://www.semanticweb.org/neighbourhood-photovoltaic-generation-ontology#hasConstantA
+<http://www.semanticweb.org/neighbourhood-photovoltaic-generation-ontology#hasConstantA> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+# 
+# http://www.semanticweb.org/neighbourhood-photovoltaic-generation-ontology#hasConstantB
+<http://www.semanticweb.org/neighbourhood-photovoltaic-generation-ontology#hasConstantB> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+# 
+# http://www.semanticweb.org/neighbourhood-photovoltaic-generation-ontology#hasDiodeIdealityFactorForMono-Si
+<http://www.semanticweb.org/neighbourhood-photovoltaic-generation-ontology#hasDiodeIdealityFactorForMono-Si> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+# 
+# http://www.semanticweb.org/neighbourhood-photovoltaic-generation-ontology#hasDiodeIdealityFactorForPoly-Si
+<http://www.semanticweb.org/neighbourhood-photovoltaic-generation-ontology#hasDiodeIdealityFactorForPoly-Si> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+# 
+# http://www.semanticweb.org/neighbourhood-photovoltaic-generation-ontology#hasDiodeIdealityFactorForThin-film
+<http://www.semanticweb.org/neighbourhood-photovoltaic-generation-ontology#hasDiodeIdealityFactorForThin-film> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+# 
+# http://www.semanticweb.org/neighbourhood-photovoltaic-generation-ontology#hasElementaryCharge
+<http://www.semanticweb.org/neighbourhood-photovoltaic-generation-ontology#hasElementaryCharge> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+# 
+# http://www.semanticweb.org/neighbourhood-photovoltaic-generation-ontology#hasFSPVAlbedoFactor
+<http://www.semanticweb.org/neighbourhood-photovoltaic-generation-ontology#hasFSPVAlbedoFactor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+# 
+# http://www.semanticweb.org/neighbourhood-photovoltaic-generation-ontology#hasFillFactor
+<http://www.semanticweb.org/neighbourhood-photovoltaic-generation-ontology#hasFillFactor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+# 
+# http://www.semanticweb.org/neighbourhood-photovoltaic-generation-ontology#hasInverterEfficienc
+<http://www.semanticweb.org/neighbourhood-photovoltaic-generation-ontology#hasInverterEfficienc> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+# 
+# http://www.semanticweb.org/neighbourhood-photovoltaic-generation-ontology#hasMismatchLoss
+<http://www.semanticweb.org/neighbourhood-photovoltaic-generation-ontology#hasMismatchLoss> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+# 
+# http://www.semanticweb.org/neighbourhood-photovoltaic-generation-ontology#hasModuleLength
+<http://www.semanticweb.org/neighbourhood-photovoltaic-generation-ontology#hasModuleLength> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+# 
+# http://www.semanticweb.org/neighbourhood-photovoltaic-generation-ontology#hasModuleTechnology
+<http://www.semanticweb.org/neighbourhood-photovoltaic-generation-ontology#hasModuleTechnology> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+# 
+# http://www.semanticweb.org/neighbourhood-photovoltaic-generation-ontology#hasModuleTemperature
+<http://www.semanticweb.org/neighbourhood-photovoltaic-generation-ontology#hasModuleTemperature> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+# 
+# http://www.semanticweb.org/neighbourhood-photovoltaic-generation-ontology#hasModuleWidth
+<http://www.semanticweb.org/neighbourhood-photovoltaic-generation-ontology#hasModuleWidth> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+# 
+# http://www.semanticweb.org/neighbourhood-photovoltaic-generation-ontology#hasNonAbsorption
+<http://www.semanticweb.org/neighbourhood-photovoltaic-generation-ontology#hasNonAbsorption> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+# 
+# http://www.semanticweb.org/neighbourhood-photovoltaic-generation-ontology#hasNumberOfSeriesConnectedCell
+<http://www.semanticweb.org/neighbourhood-photovoltaic-generation-ontology#hasNumberOfSeriesConnectedCell> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+# 
+# http://www.semanticweb.org/neighbourhood-photovoltaic-generation-ontology#hasOrientation
+<http://www.semanticweb.org/neighbourhood-photovoltaic-generation-ontology#hasOrientation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+# 
+# http://www.semanticweb.org/neighbourhood-photovoltaic-generation-ontology#hasReflectanceLossFactor
+<http://www.semanticweb.org/neighbourhood-photovoltaic-generation-ontology#hasReflectanceLossFactor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+# 
+# http://www.semanticweb.org/neighbourhood-photovoltaic-generation-ontology#hasRowSpace
+<http://www.semanticweb.org/neighbourhood-photovoltaic-generation-ontology#hasRowSpace> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+# 
+# http://www.semanticweb.org/neighbourhood-photovoltaic-generation-ontology#hasShadedArea
+<http://www.semanticweb.org/neighbourhood-photovoltaic-generation-ontology#hasShadedArea> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+# 
+# http://www.semanticweb.org/neighbourhood-photovoltaic-generation-ontology#hasShadedLength
+<http://www.semanticweb.org/neighbourhood-photovoltaic-generation-ontology#hasShadedLength> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+# 
+# http://www.semanticweb.org/neighbourhood-photovoltaic-generation-ontology#hasShadingLossFactorForBAPV
+<http://www.semanticweb.org/neighbourhood-photovoltaic-generation-ontology#hasShadingLossFactorForBAPV> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+# 
+# http://www.semanticweb.org/neighbourhood-photovoltaic-generation-ontology#hasShadingLossFactorForFSPV
+<http://www.semanticweb.org/neighbourhood-photovoltaic-generation-ontology#hasShadingLossFactorForFSPV> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+# 
+# http://www.semanticweb.org/neighbourhood-photovoltaic-generation-ontology#hasSoilingLossFactor
+<http://www.semanticweb.org/neighbourhood-photovoltaic-generation-ontology#hasSoilingLossFactor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+# 
+# http://www.semanticweb.org/neighbourhood-photovoltaic-generation-ontology#hasStandardModuleTemperature
+<http://www.semanticweb.org/neighbourhood-photovoltaic-generation-ontology#hasStandardModuleTemperature> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+# 
+# http://www.semanticweb.org/neighbourhood-photovoltaic-generation-ontology#hasStandardTestConditionIrradiance
+<http://www.semanticweb.org/neighbourhood-photovoltaic-generation-ontology#hasStandardTestConditionIrradiance> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+# 
+# http://www.semanticweb.org/neighbourhood-photovoltaic-generation-ontology#hasSurfaceArea
+<http://www.semanticweb.org/neighbourhood-photovoltaic-generation-ontology#hasSurfaceArea> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+# 
+# http://www.semanticweb.org/neighbourhood-photovoltaic-generation-ontology#hasSystemType
+<http://www.semanticweb.org/neighbourhood-photovoltaic-generation-ontology#hasSystemType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+# 
+# http://www.semanticweb.org/neighbourhood-photovoltaic-generation-ontology#hasThermalization
+<http://www.semanticweb.org/neighbourhood-photovoltaic-generation-ontology#hasThermalization> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+# 
+# http://www.semanticweb.org/neighbourhood-photovoltaic-generation-ontology#hasTilt
+<http://www.semanticweb.org/neighbourhood-photovoltaic-generation-ontology#hasTilt> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Classes
+# #
+# #################################################################
+# 
+# 
+# http://www.semanticweb.org/neighbourhood-photovoltaic-generation-ontology#BAPV
+<http://www.semanticweb.org/neighbourhood-photovoltaic-generation-ontology#BAPV> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/neighbourhood-photovoltaic-generation-ontology#BAPV> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/neighbourhood-photovoltaic-generation-ontology#PVSystem> .
+<http://www.semanticweb.org/neighbourhood-photovoltaic-generation-ontology#BAPV> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid7 .
+_:genid7 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.semanticweb.org/neighbourhood-photovoltaic-generation-ontology#Roof> .
+_:genid7 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/neighbourhood-photovoltaic-generation-ontology#:isPartOf> .
+_:genid7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+# 
+# http://www.semanticweb.org/neighbourhood-photovoltaic-generation-ontology#Building
+<http://www.semanticweb.org/neighbourhood-photovoltaic-generation-ontology#Building> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/neighbourhood-photovoltaic-generation-ontology#Building> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid8 .
+_:genid8 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.semanticweb.org/neighbourhood-photovoltaic-generation-ontology#Neighbourhood> .
+_:genid8 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/neighbourhood-photovoltaic-generation-ontology#:isLocatedIn> .
+_:genid8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+# 
+# http://www.semanticweb.org/neighbourhood-photovoltaic-generation-ontology#Constant
+<http://www.semanticweb.org/neighbourhood-photovoltaic-generation-ontology#Constant> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://www.semanticweb.org/neighbourhood-photovoltaic-generation-ontology#FSPV
+<http://www.semanticweb.org/neighbourhood-photovoltaic-generation-ontology#FSPV> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/neighbourhood-photovoltaic-generation-ontology#FSPV> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/neighbourhood-photovoltaic-generation-ontology#PVSystem> .
+<http://www.semanticweb.org/neighbourhood-photovoltaic-generation-ontology#FSPV> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid9 .
+_:genid9 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.semanticweb.org/neighbourhood-photovoltaic-generation-ontology#Neighbourhood> .
+_:genid9 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/neighbourhood-photovoltaic-generation-ontology#:isPartOf> .
+_:genid9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+# 
+# http://www.semanticweb.org/neighbourhood-photovoltaic-generation-ontology#Meteorogical
+<http://www.semanticweb.org/neighbourhood-photovoltaic-generation-ontology#Meteorogical> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://www.semanticweb.org/neighbourhood-photovoltaic-generation-ontology#Neighbourhood
+<http://www.semanticweb.org/neighbourhood-photovoltaic-generation-ontology#Neighbourhood> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/neighbourhood-photovoltaic-generation-ontology#Neighbourhood> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid10 .
+_:genid10 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.semanticweb.org/neighbourhood-photovoltaic-generation-ontology#Meteorogical> .
+_:genid10 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/neighbourhood-photovoltaic-generation-ontology#:hasProperty> .
+_:genid10 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.semanticweb.org/neighbourhood-photovoltaic-generation-ontology#Neighbourhood> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid11 .
+_:genid11 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.semanticweb.org/neighbourhood-photovoltaic-generation-ontology#WeatherRecord> .
+_:genid11 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/neighbourhood-photovoltaic-generation-ontology#:hasProperty> .
+_:genid11 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+# 
+# http://www.semanticweb.org/neighbourhood-photovoltaic-generation-ontology#PVArray
+<http://www.semanticweb.org/neighbourhood-photovoltaic-generation-ontology#PVArray> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/neighbourhood-photovoltaic-generation-ontology#PVArray> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid12 .
+_:genid12 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.semanticweb.org/neighbourhood-photovoltaic-generation-ontology#Constant> .
+_:genid12 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/neighbourhood-photovoltaic-generation-ontology#:hasConstant> .
+_:genid12 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.semanticweb.org/neighbourhood-photovoltaic-generation-ontology#PVArray> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid13 .
+_:genid13 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.semanticweb.org/neighbourhood-photovoltaic-generation-ontology#PVSystem> .
+_:genid13 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/neighbourhood-photovoltaic-generation-ontology#:isPartOf> .
+_:genid13 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+# 
+# http://www.semanticweb.org/neighbourhood-photovoltaic-generation-ontology#PVModule
+<http://www.semanticweb.org/neighbourhood-photovoltaic-generation-ontology#PVModule> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/neighbourhood-photovoltaic-generation-ontology#PVModule> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid14 .
+_:genid14 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.semanticweb.org/neighbourhood-photovoltaic-generation-ontology#PVPanel> .
+_:genid14 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/neighbourhood-photovoltaic-generation-ontology#:isPartOf> .
+_:genid14 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+# 
+# http://www.semanticweb.org/neighbourhood-photovoltaic-generation-ontology#PVPanel
+<http://www.semanticweb.org/neighbourhood-photovoltaic-generation-ontology#PVPanel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/neighbourhood-photovoltaic-generation-ontology#PVPanel> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid15 .
+_:genid15 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.semanticweb.org/neighbourhood-photovoltaic-generation-ontology#PVArray> .
+_:genid15 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/neighbourhood-photovoltaic-generation-ontology#:isPartOf> .
+_:genid15 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+# 
+# http://www.semanticweb.org/neighbourhood-photovoltaic-generation-ontology#PVSystem
+<http://www.semanticweb.org/neighbourhood-photovoltaic-generation-ontology#PVSystem> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://www.semanticweb.org/neighbourhood-photovoltaic-generation-ontology#Roof
+<http://www.semanticweb.org/neighbourhood-photovoltaic-generation-ontology#Roof> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/neighbourhood-photovoltaic-generation-ontology#Roof> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid16 .
+_:genid16 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.semanticweb.org/neighbourhood-photovoltaic-generation-ontology#Building> .
+_:genid16 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/neighbourhood-photovoltaic-generation-ontology#:isPartOf> .
+_:genid16 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+# 
+# http://www.semanticweb.org/neighbourhood-photovoltaic-generation-ontology#SolarCell
+<http://www.semanticweb.org/neighbourhood-photovoltaic-generation-ontology#SolarCell> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/neighbourhood-photovoltaic-generation-ontology#SolarCell> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid17 .
+_:genid17 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.semanticweb.org/neighbourhood-photovoltaic-generation-ontology#PVModule> .
+_:genid17 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/neighbourhood-photovoltaic-generation-ontology#:isPartOf> .
+_:genid17 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+# 
+# http://www.semanticweb.org/neighbourhood-photovoltaic-generation-ontology#WeatherRecord
+<http://www.semanticweb.org/neighbourhood-photovoltaic-generation-ontology#WeatherRecord> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Individuals
+# #
+# #################################################################
+# 
+# 
+# http://www.semanticweb.org/neighbourhood-photovoltaic-generation-ontology#Building
+<http://www.semanticweb.org/neighbourhood-photovoltaic-generation-ontology#Building> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/neighbourhood-photovoltaic-generation-ontology#Building> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/neighbourhood-photovoltaic-generation-ontology#Building> .
+# 
+# http://www.semanticweb.org/neighbourhood-photovoltaic-generation-ontology#Constant
+<http://www.semanticweb.org/neighbourhood-photovoltaic-generation-ontology#Constant> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/neighbourhood-photovoltaic-generation-ontology#Constant> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/neighbourhood-photovoltaic-generation-ontology#Constant> .
+<http://www.semanticweb.org/neighbourhood-photovoltaic-generation-ontology#Constant> <http://www.semanticweb.org/neighbourhood-photovoltaic-generation-ontology#hasBAPVAlbedoFactor> "0.15"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://www.semanticweb.org/neighbourhood-photovoltaic-generation-ontology#Constant> <http://www.semanticweb.org/neighbourhood-photovoltaic-generation-ontology#hasBoltzmannConstant> "1.38"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://www.semanticweb.org/neighbourhood-photovoltaic-generation-ontology#Constant> <http://www.semanticweb.org/neighbourhood-photovoltaic-generation-ontology#hasCableLossFactor> "0.005"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://www.semanticweb.org/neighbourhood-photovoltaic-generation-ontology#Constant> <http://www.semanticweb.org/neighbourhood-photovoltaic-generation-ontology#hasConstantA> "-0.01"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://www.semanticweb.org/neighbourhood-photovoltaic-generation-ontology#Constant> <http://www.semanticweb.org/neighbourhood-photovoltaic-generation-ontology#hasConstantB> "-0.02"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://www.semanticweb.org/neighbourhood-photovoltaic-generation-ontology#Constant> <http://www.semanticweb.org/neighbourhood-photovoltaic-generation-ontology#hasDiodeIdealityFactorForMono-Si> "1.0"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://www.semanticweb.org/neighbourhood-photovoltaic-generation-ontology#Constant> <http://www.semanticweb.org/neighbourhood-photovoltaic-generation-ontology#hasDiodeIdealityFactorForPoly-Si> "1.5"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://www.semanticweb.org/neighbourhood-photovoltaic-generation-ontology#Constant> <http://www.semanticweb.org/neighbourhood-photovoltaic-generation-ontology#hasDiodeIdealityFactorForThin-film> "2.0"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://www.semanticweb.org/neighbourhood-photovoltaic-generation-ontology#Constant> <http://www.semanticweb.org/neighbourhood-photovoltaic-generation-ontology#hasElementaryCharge> "1.602"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://www.semanticweb.org/neighbourhood-photovoltaic-generation-ontology#Constant> <http://www.semanticweb.org/neighbourhood-photovoltaic-generation-ontology#hasFSPVAlbedoFactor> "0.24"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://www.semanticweb.org/neighbourhood-photovoltaic-generation-ontology#Constant> <http://www.semanticweb.org/neighbourhood-photovoltaic-generation-ontology#hasFillFactor> "1.0"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://www.semanticweb.org/neighbourhood-photovoltaic-generation-ontology#Constant> <http://www.semanticweb.org/neighbourhood-photovoltaic-generation-ontology#hasMismatchLoss> "0.015"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://www.semanticweb.org/neighbourhood-photovoltaic-generation-ontology#Constant> <http://www.semanticweb.org/neighbourhood-photovoltaic-generation-ontology#hasReflectanceLossFactor> "0.04"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://www.semanticweb.org/neighbourhood-photovoltaic-generation-ontology#Constant> <http://www.semanticweb.org/neighbourhood-photovoltaic-generation-ontology#hasShadingLossFactorForBAPV> "0.0688"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://www.semanticweb.org/neighbourhood-photovoltaic-generation-ontology#Constant> <http://www.semanticweb.org/neighbourhood-photovoltaic-generation-ontology#hasShadingLossFactorForFSPV> "0.0"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://www.semanticweb.org/neighbourhood-photovoltaic-generation-ontology#Constant> <http://www.semanticweb.org/neighbourhood-photovoltaic-generation-ontology#hasSoilingLossFactor> "8.3E-4"^^<http://www.w3.org/2001/XMLSchema#float> .
+# 
+# http://www.semanticweb.org/neighbourhood-photovoltaic-generation-ontology#Neighbourhood
+<http://www.semanticweb.org/neighbourhood-photovoltaic-generation-ontology#Neighbourhood> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/neighbourhood-photovoltaic-generation-ontology#Neighbourhood> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/neighbourhood-photovoltaic-generation-ontology#Neighbourhood> .
+# 
+# http://www.semanticweb.org/neighbourhood-photovoltaic-generation-ontology#PVArray
+<http://www.semanticweb.org/neighbourhood-photovoltaic-generation-ontology#PVArray> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/neighbourhood-photovoltaic-generation-ontology#PVArray> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/neighbourhood-photovoltaic-generation-ontology#PVArray> .
+# 
+# http://www.semanticweb.org/neighbourhood-photovoltaic-generation-ontology#PVModule
+<http://www.semanticweb.org/neighbourhood-photovoltaic-generation-ontology#PVModule> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/neighbourhood-photovoltaic-generation-ontology#PVModule> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/neighbourhood-photovoltaic-generation-ontology#PVModule> .
+<http://www.semanticweb.org/neighbourhood-photovoltaic-generation-ontology#PVModule> <http://www.semanticweb.org/neighbourhood-photovoltaic-generation-ontology#hasAzimuth> "180.0"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://www.semanticweb.org/neighbourhood-photovoltaic-generation-ontology#PVModule> <http://www.semanticweb.org/neighbourhood-photovoltaic-generation-ontology#hasAzimuth> "270.0"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://www.semanticweb.org/neighbourhood-photovoltaic-generation-ontology#PVModule> <http://www.semanticweb.org/neighbourhood-photovoltaic-generation-ontology#hasAzimuth> "90.0"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://www.semanticweb.org/neighbourhood-photovoltaic-generation-ontology#PVModule> <http://www.semanticweb.org/neighbourhood-photovoltaic-generation-ontology#hasConfigurationMode> "EW" .
+<http://www.semanticweb.org/neighbourhood-photovoltaic-generation-ontology#PVModule> <http://www.semanticweb.org/neighbourhood-photovoltaic-generation-ontology#hasConfigurationMode> "east" .
+<http://www.semanticweb.org/neighbourhood-photovoltaic-generation-ontology#PVModule> <http://www.semanticweb.org/neighbourhood-photovoltaic-generation-ontology#hasConfigurationMode> "south" .
+<http://www.semanticweb.org/neighbourhood-photovoltaic-generation-ontology#PVModule> <http://www.semanticweb.org/neighbourhood-photovoltaic-generation-ontology#hasConfigurationMode> "west" .
+<http://www.semanticweb.org/neighbourhood-photovoltaic-generation-ontology#PVModule> <http://www.semanticweb.org/neighbourhood-photovoltaic-generation-ontology#hasModuleLength> "3.0"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://www.semanticweb.org/neighbourhood-photovoltaic-generation-ontology#PVModule> <http://www.semanticweb.org/neighbourhood-photovoltaic-generation-ontology#hasModuleTechnology> "c-Si" .
+<http://www.semanticweb.org/neighbourhood-photovoltaic-generation-ontology#PVModule> <http://www.semanticweb.org/neighbourhood-photovoltaic-generation-ontology#hasModuleTechnology> "poly-Si" .
+<http://www.semanticweb.org/neighbourhood-photovoltaic-generation-ontology#PVModule> <http://www.semanticweb.org/neighbourhood-photovoltaic-generation-ontology#hasModuleTechnology> "thin-film" .
+<http://www.semanticweb.org/neighbourhood-photovoltaic-generation-ontology#PVModule> <http://www.semanticweb.org/neighbourhood-photovoltaic-generation-ontology#hasModuleTemperature> "23.0"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://www.semanticweb.org/neighbourhood-photovoltaic-generation-ontology#PVModule> <http://www.semanticweb.org/neighbourhood-photovoltaic-generation-ontology#hasModuleWidth> "1.0"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://www.semanticweb.org/neighbourhood-photovoltaic-generation-ontology#PVModule> <http://www.semanticweb.org/neighbourhood-photovoltaic-generation-ontology#hasNumberOfSeriesConnectedCell> "30.0"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://www.semanticweb.org/neighbourhood-photovoltaic-generation-ontology#PVModule> <http://www.semanticweb.org/neighbourhood-photovoltaic-generation-ontology#hasOrientation> "landscape" .
+<http://www.semanticweb.org/neighbourhood-photovoltaic-generation-ontology#PVModule> <http://www.semanticweb.org/neighbourhood-photovoltaic-generation-ontology#hasOrientation> "portrait" .
+<http://www.semanticweb.org/neighbourhood-photovoltaic-generation-ontology#PVModule> <http://www.semanticweb.org/neighbourhood-photovoltaic-generation-ontology#hasRowSpace> "2.0"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://www.semanticweb.org/neighbourhood-photovoltaic-generation-ontology#PVModule> <http://www.semanticweb.org/neighbourhood-photovoltaic-generation-ontology#hasShadedArea> "5.0"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://www.semanticweb.org/neighbourhood-photovoltaic-generation-ontology#PVModule> <http://www.semanticweb.org/neighbourhood-photovoltaic-generation-ontology#hasShadedLength> "0.5"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://www.semanticweb.org/neighbourhood-photovoltaic-generation-ontology#PVModule> <http://www.semanticweb.org/neighbourhood-photovoltaic-generation-ontology#hasStandardModuleTemperature> "25.0"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://www.semanticweb.org/neighbourhood-photovoltaic-generation-ontology#PVModule> <http://www.semanticweb.org/neighbourhood-photovoltaic-generation-ontology#hasSurfaceArea> "30.0"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://www.semanticweb.org/neighbourhood-photovoltaic-generation-ontology#PVModule> <http://www.semanticweb.org/neighbourhood-photovoltaic-generation-ontology#hasTilt> "30.0"^^<http://www.w3.org/2001/XMLSchema#float> .
+# 
+# http://www.semanticweb.org/neighbourhood-photovoltaic-generation-ontology#PVPanel
+<http://www.semanticweb.org/neighbourhood-photovoltaic-generation-ontology#PVPanel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/neighbourhood-photovoltaic-generation-ontology#PVPanel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/neighbourhood-photovoltaic-generation-ontology#PVPanel> .
+# 
+# http://www.semanticweb.org/neighbourhood-photovoltaic-generation-ontology#PVSystem
+<http://www.semanticweb.org/neighbourhood-photovoltaic-generation-ontology#PVSystem> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/neighbourhood-photovoltaic-generation-ontology#PVSystem> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/neighbourhood-photovoltaic-generation-ontology#PVSystem> .
+# 
+# http://www.semanticweb.org/neighbourhood-photovoltaic-generation-ontology#Roof
+<http://www.semanticweb.org/neighbourhood-photovoltaic-generation-ontology#Roof> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/neighbourhood-photovoltaic-generation-ontology#Roof> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/neighbourhood-photovoltaic-generation-ontology#Roof> .
+# 
+# http://www.semanticweb.org/neighbourhood-photovoltaic-generation-ontology#SolarCell
+<http://www.semanticweb.org/neighbourhood-photovoltaic-generation-ontology#SolarCell> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/neighbourhood-photovoltaic-generation-ontology#SolarCell> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/neighbourhood-photovoltaic-generation-ontology#SolarCell> .
+# 
+# Generated by the OWL API (version 5.1.18) https://github.com/owlcs/owlapi/
