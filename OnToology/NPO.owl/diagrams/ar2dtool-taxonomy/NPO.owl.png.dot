@@ -1,0 +1,8 @@
+digraph ar2dtool_diagram { 
+rankdir=LR;
+size="1000"
+node [shape = rectangle, color="black"]; "npo:PVSystem" "npo:FSPV" "npo:BAPV" ; /*classes style*/
+	"npo:FSPV" -> "npo:PVSystem" [ label = "rdfs:subClassOf" ];
+	"npo:BAPV" -> "npo:PVSystem" [ label = "rdfs:subClassOf" ];
+
+}

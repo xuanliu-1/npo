@@ -1,0 +1,24 @@
+digraph ar2dtool_diagram { 
+rankdir=LR;
+size="1501"
+node [shape = rectangle, color="orange"]; "npo:Meteorogical" "npo:Roof" "npo:PVModule" "npo:Building" "npo:Neighbourhood" "npo:PVArray" "npo:PVSystem" "npo:PVPanel" "npo:Constant" "npo:WeatherRecord" ; /*classes style*/
+	"NULL" -> "npo:hasConfigurationMode" [ label = "owl:onProperty" ];
+	"NULL" -> "npo:PVPanel" [ label = "owl:someValuesFrom" ];
+	"NULL" -> "neighbourhood-photovoltaic-generation-ontology:isLocatedIn" [ label = "owl:onProperty" ];
+	"NULL" -> "npo:WeatherRecord" [ label = "owl:someValuesFrom" ];
+	"NULL" -> "npo:Roof" [ label = "owl:someValuesFrom" ];
+	"NULL" -> "npo:PVModule" [ label = "owl:someValuesFrom" ];
+	"NULL" -> "npo:hasAzimuth" [ label = "owl:onProperty" ];
+	"NULL" -> "npo:PVSystem" [ label = "owl:someValuesFrom" ];
+	"NULL" -> "rdfs:Literal" [ label = "owl:someValuesFrom" ];
+	"NULL" -> "npo:Meteorogical" [ label = "owl:someValuesFrom" ];
+	"NULL" -> "npo:Neighbourhood" [ label = "owl:someValuesFrom" ];
+	"NULL" -> "npo:PVArray" [ label = "owl:someValuesFrom" ];
+	"NULL" -> "npo:Building" [ label = "owl:someValuesFrom" ];
+	"NULL" -> "npo:hasBoltzmannConstant" [ label = "owl:onProperty" ];
+	"NULL" -> "neighbourhood-photovoltaic-generation-ontology:isPartOf" [ label = "owl:onProperty" ];
+	"NULL" -> "neighbourhood-photovoltaic-generation-ontology:hasConstant" [ label = "owl:onProperty" ];
+	"NULL" -> "neighbourhood-photovoltaic-generation-ontology:hasProperty" [ label = "owl:onProperty" ];
+	"NULL" -> "npo:Constant" [ label = "owl:someValuesFrom" ];
+
+}
