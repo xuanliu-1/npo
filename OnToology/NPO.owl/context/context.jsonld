@@ -1,0 +1,167 @@
+{
+  "@context" : {
+    "Neighbourhood" : {
+      "@id" : "http://xuanliu-1.github.io/npo#Neighbourhood"
+    },
+    "hasAzimuth" : {
+      "@id" : "http://xuanliu-1.github.io/npo#hasAzimuth"
+    },
+    "hasShadingLossFactorForFSPV" : {
+      "@id" : "http://xuanliu-1.github.io/npo#hasShadingLossFactorForFSPV"
+    },
+    "SolarCell" : {
+      "@id" : "http://xuanliu-1.github.io/npo#SolarCell"
+    },
+    "Roof" : {
+      "@id" : "http://xuanliu-1.github.io/npo#Roof"
+    },
+    "hasShadedLength" : {
+      "@id" : "http://xuanliu-1.github.io/npo#hasShadedLength"
+    },
+    "PVArray" : {
+      "@id" : "http://xuanliu-1.github.io/npo#PVArray"
+    },
+    "Constant" : {
+      "@id" : "http://xuanliu-1.github.io/npo#Constant"
+    },
+    "hasNonAbsorption" : {
+      "@id" : "http://xuanliu-1.github.io/npo#hasNonAbsorption"
+    },
+    "hasConstantA" : {
+      "@id" : "http://xuanliu-1.github.io/npo#hasConstantA"
+    },
+    "hasNumberOfSeriesConnectedCell" : {
+      "@id" : "http://xuanliu-1.github.io/npo#hasNumberOfSeriesConnectedCell"
+    },
+    "hasModuleLength" : {
+      "@id" : "http://xuanliu-1.github.io/npo#hasModuleLength"
+    },
+    "hasRowSpace" : {
+      "@id" : "http://xuanliu-1.github.io/npo#hasRowSpace"
+    },
+    "hasBAPVAlbedoFactor" : {
+      "@id" : "http://xuanliu-1.github.io/npo#hasBAPVAlbedoFactor"
+    },
+    "isPartOf" : {
+      "@id" : "http://xuanliu-1.github.io/npo#:isPartOf",
+      "@type" : "@id"
+    },
+    "hasConfigurationMode" : {
+      "@id" : "http://xuanliu-1.github.io/npo#hasConfigurationMode"
+    },
+    "hasStandardModuleTemperature" : {
+      "@id" : "http://xuanliu-1.github.io/npo#hasStandardModuleTemperature"
+    },
+    "hasTilt" : {
+      "@id" : "http://xuanliu-1.github.io/npo#hasTilt"
+    },
+    "hasProperty" : {
+      "@id" : "http://xuanliu-1.github.io/npo#:hasProperty",
+      "@type" : "@id"
+    },
+    "Meteorogical" : {
+      "@id" : "http://xuanliu-1.github.io/npo#Meteorogical"
+    },
+    "PVModule" : {
+      "@id" : "http://xuanliu-1.github.io/npo#PVModule"
+    },
+    "Building" : {
+      "@id" : "http://xuanliu-1.github.io/npo#Building"
+    },
+    "hasFillFactor" : {
+      "@id" : "http://xuanliu-1.github.io/npo#hasFillFactor"
+    },
+    "hasDiodeIdealityFactorForMono-Si" : {
+      "@id" : "http://xuanliu-1.github.io/npo#hasDiodeIdealityFactorForMono-Si"
+    },
+    "hasSystemType" : {
+      "@id" : "http://xuanliu-1.github.io/npo#hasSystemType"
+    },
+    "hasBandgapUtilization" : {
+      "@id" : "http://xuanliu-1.github.io/npo#hasBandgapUtilization"
+    },
+    "hasFSPVAlbedoFactor" : {
+      "@id" : "http://xuanliu-1.github.io/npo#hasFSPVAlbedoFactor"
+    },
+    "hasSurfaceArea" : {
+      "@id" : "http://xuanliu-1.github.io/npo#hasSurfaceArea"
+    },
+    "hasModuleWidth" : {
+      "@id" : "http://xuanliu-1.github.io/npo#hasModuleWidth"
+    },
+    "hasElementaryCharge" : {
+      "@id" : "http://xuanliu-1.github.io/npo#hasElementaryCharge"
+    },
+    "hasConstantB" : {
+      "@id" : "http://xuanliu-1.github.io/npo#hasConstantB"
+    },
+    "PVPanel" : {
+      "@id" : "http://xuanliu-1.github.io/npo#PVPanel"
+    },
+    "hasShadingLossFactorForBAPV" : {
+      "@id" : "http://xuanliu-1.github.io/npo#hasShadingLossFactorForBAPV"
+    },
+    "hasModuleTemperature" : {
+      "@id" : "http://xuanliu-1.github.io/npo#hasModuleTemperature"
+    },
+    "hasOrientation" : {
+      "@id" : "http://xuanliu-1.github.io/npo#hasOrientation"
+    },
+    "WeatherRecord" : {
+      "@id" : "http://xuanliu-1.github.io/npo#WeatherRecord"
+    },
+    "BAPV" : {
+      "@id" : "http://xuanliu-1.github.io/npo#BAPV"
+    },
+    "hasReflectanceLossFactor" : {
+      "@id" : "http://xuanliu-1.github.io/npo#hasReflectanceLossFactor"
+    },
+    "hasDiodeIdealityFactorForPoly-Si" : {
+      "@id" : "http://xuanliu-1.github.io/npo#hasDiodeIdealityFactorForPoly-Si"
+    },
+    "hasCableLossFactor" : {
+      "@id" : "http://xuanliu-1.github.io/npo#hasCableLossFactor"
+    },
+    "PVSystem" : {
+      "@id" : "http://xuanliu-1.github.io/npo#PVSystem"
+    },
+    "hasSoilingLossFactor" : {
+      "@id" : "http://xuanliu-1.github.io/npo#hasSoilingLossFactor"
+    },
+    "hasConstant" : {
+      "@id" : "http://xuanliu-1.github.io/npo#:hasConstant",
+      "@type" : "@id"
+    },
+    "hasShadedArea" : {
+      "@id" : "http://xuanliu-1.github.io/npo#hasShadedArea"
+    },
+    "hasThermalization" : {
+      "@id" : "http://xuanliu-1.github.io/npo#hasThermalization"
+    },
+    "hasBoltzmannConstant" : {
+      "@id" : "http://xuanliu-1.github.io/npo#hasBoltzmannConstant"
+    },
+    "hasMismatchLoss" : {
+      "@id" : "http://xuanliu-1.github.io/npo#hasMismatchLoss"
+    },
+    "hasDiodeIdealityFactorForThin-film" : {
+      "@id" : "http://xuanliu-1.github.io/npo#hasDiodeIdealityFactorForThin-film"
+    },
+    "hasModuleTechnology" : {
+      "@id" : "http://xuanliu-1.github.io/npo#hasModuleTechnology"
+    },
+    "hasStandardTestConditionIrradiance" : {
+      "@id" : "http://xuanliu-1.github.io/npo#hasStandardTestConditionIrradiance"
+    },
+    "hasInverterEfficienc" : {
+      "@id" : "http://xuanliu-1.github.io/npo#hasInverterEfficienc"
+    },
+    "isLocatedIn" : {
+      "@id" : "http://xuanliu-1.github.io/npo#:isLocatedIn",
+      "@type" : "@id"
+    },
+    "FSPV" : {
+      "@id" : "http://xuanliu-1.github.io/npo#FSPV"
+    }
+  }
+}
