@@ -1,0 +1,167 @@
+{
+  "@context" : {
+    "Neighbourhood" : {
+      "@id" : "http://www.semanticweb.org/neighbourhood-photovoltaic-generation-ontology#Neighbourhood"
+    },
+    "hasAzimuth" : {
+      "@id" : "http://www.semanticweb.org/neighbourhood-photovoltaic-generation-ontology#hasAzimuth"
+    },
+    "hasShadingLossFactorForFSPV" : {
+      "@id" : "http://www.semanticweb.org/neighbourhood-photovoltaic-generation-ontology#hasShadingLossFactorForFSPV"
+    },
+    "SolarCell" : {
+      "@id" : "http://www.semanticweb.org/neighbourhood-photovoltaic-generation-ontology#SolarCell"
+    },
+    "Roof" : {
+      "@id" : "http://www.semanticweb.org/neighbourhood-photovoltaic-generation-ontology#Roof"
+    },
+    "hasShadedLength" : {
+      "@id" : "http://www.semanticweb.org/neighbourhood-photovoltaic-generation-ontology#hasShadedLength"
+    },
+    "PVArray" : {
+      "@id" : "http://www.semanticweb.org/neighbourhood-photovoltaic-generation-ontology#PVArray"
+    },
+    "Constant" : {
+      "@id" : "http://www.semanticweb.org/neighbourhood-photovoltaic-generation-ontology#Constant"
+    },
+    "hasNonAbsorption" : {
+      "@id" : "http://www.semanticweb.org/neighbourhood-photovoltaic-generation-ontology#hasNonAbsorption"
+    },
+    "hasConstantA" : {
+      "@id" : "http://www.semanticweb.org/neighbourhood-photovoltaic-generation-ontology#hasConstantA"
+    },
+    "hasNumberOfSeriesConnectedCell" : {
+      "@id" : "http://www.semanticweb.org/neighbourhood-photovoltaic-generation-ontology#hasNumberOfSeriesConnectedCell"
+    },
+    "hasModuleLength" : {
+      "@id" : "http://www.semanticweb.org/neighbourhood-photovoltaic-generation-ontology#hasModuleLength"
+    },
+    "hasRowSpace" : {
+      "@id" : "http://www.semanticweb.org/neighbourhood-photovoltaic-generation-ontology#hasRowSpace"
+    },
+    "hasBAPVAlbedoFactor" : {
+      "@id" : "http://www.semanticweb.org/neighbourhood-photovoltaic-generation-ontology#hasBAPVAlbedoFactor"
+    },
+    "isPartOf" : {
+      "@id" : "http://www.semanticweb.org/neighbourhood-photovoltaic-generation-ontology#:isPartOf",
+      "@type" : "@id"
+    },
+    "hasConfigurationMode" : {
+      "@id" : "http://www.semanticweb.org/neighbourhood-photovoltaic-generation-ontology#hasConfigurationMode"
+    },
+    "hasStandardModuleTemperature" : {
+      "@id" : "http://www.semanticweb.org/neighbourhood-photovoltaic-generation-ontology#hasStandardModuleTemperature"
+    },
+    "hasTilt" : {
+      "@id" : "http://www.semanticweb.org/neighbourhood-photovoltaic-generation-ontology#hasTilt"
+    },
+    "hasProperty" : {
+      "@id" : "http://www.semanticweb.org/neighbourhood-photovoltaic-generation-ontology#:hasProperty",
+      "@type" : "@id"
+    },
+    "Meteorogical" : {
+      "@id" : "http://www.semanticweb.org/neighbourhood-photovoltaic-generation-ontology#Meteorogical"
+    },
+    "PVModule" : {
+      "@id" : "http://www.semanticweb.org/neighbourhood-photovoltaic-generation-ontology#PVModule"
+    },
+    "Building" : {
+      "@id" : "http://www.semanticweb.org/neighbourhood-photovoltaic-generation-ontology#Building"
+    },
+    "hasFillFactor" : {
+      "@id" : "http://www.semanticweb.org/neighbourhood-photovoltaic-generation-ontology#hasFillFactor"
+    },
+    "hasDiodeIdealityFactorForMono-Si" : {
+      "@id" : "http://www.semanticweb.org/neighbourhood-photovoltaic-generation-ontology#hasDiodeIdealityFactorForMono-Si"
+    },
+    "hasSystemType" : {
+      "@id" : "http://www.semanticweb.org/neighbourhood-photovoltaic-generation-ontology#hasSystemType"
+    },
+    "hasBandgapUtilization" : {
+      "@id" : "http://www.semanticweb.org/neighbourhood-photovoltaic-generation-ontology#hasBandgapUtilization"
+    },
+    "hasFSPVAlbedoFactor" : {
+      "@id" : "http://www.semanticweb.org/neighbourhood-photovoltaic-generation-ontology#hasFSPVAlbedoFactor"
+    },
+    "hasSurfaceArea" : {
+      "@id" : "http://www.semanticweb.org/neighbourhood-photovoltaic-generation-ontology#hasSurfaceArea"
+    },
+    "hasModuleWidth" : {
+      "@id" : "http://www.semanticweb.org/neighbourhood-photovoltaic-generation-ontology#hasModuleWidth"
+    },
+    "hasElementaryCharge" : {
+      "@id" : "http://www.semanticweb.org/neighbourhood-photovoltaic-generation-ontology#hasElementaryCharge"
+    },
+    "hasConstantB" : {
+      "@id" : "http://www.semanticweb.org/neighbourhood-photovoltaic-generation-ontology#hasConstantB"
+    },
+    "PVPanel" : {
+      "@id" : "http://www.semanticweb.org/neighbourhood-photovoltaic-generation-ontology#PVPanel"
+    },
+    "hasShadingLossFactorForBAPV" : {
+      "@id" : "http://www.semanticweb.org/neighbourhood-photovoltaic-generation-ontology#hasShadingLossFactorForBAPV"
+    },
+    "hasModuleTemperature" : {
+      "@id" : "http://www.semanticweb.org/neighbourhood-photovoltaic-generation-ontology#hasModuleTemperature"
+    },
+    "hasOrientation" : {
+      "@id" : "http://www.semanticweb.org/neighbourhood-photovoltaic-generation-ontology#hasOrientation"
+    },
+    "WeatherRecord" : {
+      "@id" : "http://www.semanticweb.org/neighbourhood-photovoltaic-generation-ontology#WeatherRecord"
+    },
+    "BAPV" : {
+      "@id" : "http://www.semanticweb.org/neighbourhood-photovoltaic-generation-ontology#BAPV"
+    },
+    "hasReflectanceLossFactor" : {
+      "@id" : "http://www.semanticweb.org/neighbourhood-photovoltaic-generation-ontology#hasReflectanceLossFactor"
+    },
+    "hasDiodeIdealityFactorForPoly-Si" : {
+      "@id" : "http://www.semanticweb.org/neighbourhood-photovoltaic-generation-ontology#hasDiodeIdealityFactorForPoly-Si"
+    },
+    "hasCableLossFactor" : {
+      "@id" : "http://www.semanticweb.org/neighbourhood-photovoltaic-generation-ontology#hasCableLossFactor"
+    },
+    "PVSystem" : {
+      "@id" : "http://www.semanticweb.org/neighbourhood-photovoltaic-generation-ontology#PVSystem"
+    },
+    "hasSoilingLossFactor" : {
+      "@id" : "http://www.semanticweb.org/neighbourhood-photovoltaic-generation-ontology#hasSoilingLossFactor"
+    },
+    "hasConstant" : {
+      "@id" : "http://www.semanticweb.org/neighbourhood-photovoltaic-generation-ontology#:hasConstant",
+      "@type" : "@id"
+    },
+    "hasShadedArea" : {
+      "@id" : "http://www.semanticweb.org/neighbourhood-photovoltaic-generation-ontology#hasShadedArea"
+    },
+    "hasThermalization" : {
+      "@id" : "http://www.semanticweb.org/neighbourhood-photovoltaic-generation-ontology#hasThermalization"
+    },
+    "hasBoltzmannConstant" : {
+      "@id" : "http://www.semanticweb.org/neighbourhood-photovoltaic-generation-ontology#hasBoltzmannConstant"
+    },
+    "hasMismatchLoss" : {
+      "@id" : "http://www.semanticweb.org/neighbourhood-photovoltaic-generation-ontology#hasMismatchLoss"
+    },
+    "hasDiodeIdealityFactorForThin-film" : {
+      "@id" : "http://www.semanticweb.org/neighbourhood-photovoltaic-generation-ontology#hasDiodeIdealityFactorForThin-film"
+    },
+    "hasModuleTechnology" : {
+      "@id" : "http://www.semanticweb.org/neighbourhood-photovoltaic-generation-ontology#hasModuleTechnology"
+    },
+    "hasStandardTestConditionIrradiance" : {
+      "@id" : "http://www.semanticweb.org/neighbourhood-photovoltaic-generation-ontology#hasStandardTestConditionIrradiance"
+    },
+    "hasInverterEfficienc" : {
+      "@id" : "http://www.semanticweb.org/neighbourhood-photovoltaic-generation-ontology#hasInverterEfficienc"
+    },
+    "isLocatedIn" : {
+      "@id" : "http://www.semanticweb.org/neighbourhood-photovoltaic-generation-ontology#:isLocatedIn",
+      "@type" : "@id"
+    },
+    "FSPV" : {
+      "@id" : "http://www.semanticweb.org/neighbourhood-photovoltaic-generation-ontology#FSPV"
+    }
+  }
+}
