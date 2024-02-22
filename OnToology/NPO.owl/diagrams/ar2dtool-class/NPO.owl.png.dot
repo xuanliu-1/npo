@@ -1,0 +1,24 @@
+digraph ar2dtool_diagram { 
+rankdir=LR;
+size="1501"
+node [shape = rectangle, color="orange"]; "npo1:Neighbourhood" "npo1:PVArray" "npo1:PVPanel" "npo1:Building" "npo1:WeatherRecord" "npo1:Roof" "npo1:Meteorogical" "npo1:PVModule" "npo1:Constant" "npo1:PVSystem" ; /*classes style*/
+	"NULL" -> "npo1:PVPanel" [ label = "owl:someValuesFrom" ];
+	"NULL" -> "http://xuanliu-1.github.io/npo#:isPartOf" [ label = "owl:onProperty" ];
+	"NULL" -> "http://xuanliu-1.github.io/npo#:isLocatedIn" [ label = "owl:onProperty" ];
+	"NULL" -> "npo1:Constant" [ label = "owl:someValuesFrom" ];
+	"NULL" -> "http://xuanliu-1.github.io/npo#:hasProperty" [ label = "owl:onProperty" ];
+	"NULL" -> "npo1:hasBoltzmannConstant" [ label = "owl:onProperty" ];
+	"NULL" -> "npo1:Neighbourhood" [ label = "owl:someValuesFrom" ];
+	"NULL" -> "npo1:PVSystem" [ label = "owl:someValuesFrom" ];
+	"NULL" -> "npo1:hasConfigurationMode" [ label = "owl:onProperty" ];
+	"NULL" -> "npo1:WeatherRecord" [ label = "owl:someValuesFrom" ];
+	"NULL" -> "npo1:PVModule" [ label = "owl:someValuesFrom" ];
+	"NULL" -> "rdfs:Literal" [ label = "owl:someValuesFrom" ];
+	"NULL" -> "http://xuanliu-1.github.io/npo#:hasConstant" [ label = "owl:onProperty" ];
+	"NULL" -> "npo1:PVArray" [ label = "owl:someValuesFrom" ];
+	"NULL" -> "npo1:Roof" [ label = "owl:someValuesFrom" ];
+	"NULL" -> "npo1:hasAzimuth" [ label = "owl:onProperty" ];
+	"NULL" -> "npo1:Meteorogical" [ label = "owl:someValuesFrom" ];
+	"NULL" -> "npo1:Building" [ label = "owl:someValuesFrom" ];
+
+}
