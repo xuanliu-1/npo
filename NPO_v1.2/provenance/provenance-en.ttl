@@ -1,0 +1,15 @@
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix : <> .
+<http://xuanliu-1.github.io/npo> a prov:Entity;
+	 dc:title "Neighbourhood Photovoltaic Generation Ontology";
+	 prov:wasAttributedTo <https://research.tue.nl/en/persons/xuan-liu>;
+	 dc:creator <https://research.tue.nl/en/persons/xuan-liu>;
+	 prov:wasAttributedTo <https://research.tue.nl/en/persons/dujuan-yang/>;
+	 dc:contributor <https://research.tue.nl/en/persons/dujuan-yang/>;
+	 prov:wasAttributedTo <https://research.tue.nl/en/persons/bauke-de-vries>;
+	 dc:contributor <https://research.tue.nl/en/persons/bauke-de-vries>;
+	 prov:wasAttributedTo <https://github.com/dgarijo/Widoco/>,<http://www.essepuntato.it/lode/>;
+	 prov:specializationOf <http://xuanliu-1.github.io/npo>;
+.

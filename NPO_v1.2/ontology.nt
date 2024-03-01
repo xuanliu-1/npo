@@ -1,0 +1,481 @@
+<http://xuanliu-1.github.io/npo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+<http://xuanliu-1.github.io/npo> <http://www.w3.org/2002/07/owl#versionIRI> <http://xuanliu-1.github.io/npo> .
+<http://xuanliu-1.github.io/npo> <http://purl.org/dc/terms/title> "Neighbourhood Photovoltaic Generation Ontology"@en .
+<http://xuanliu-1.github.io/npo> <http://xuanliu-1.github.io/npo#preferredNameSpacePrefix> "The Neighbourhood Photovoltaic Generation Ontology (NPO) aims to consolidate diverse photovoltaic (PV) generation data at the neighbourhood scale. Its goal is to support the estimation of PV generation and informed decision-making for micro-scale sustainable urban planning initiatives."@en .
+<http://xuanliu-1.github.io/npo> <http://xuanliu-1.github.io/npo#preferredNameSpacePrefix> "npo" .
+# 
+# 
+# #################################################################
+# #
+# #    Annotation properties
+# #
+# #################################################################
+# 
+# 
+# http://purl.org/dc/terms/creator
+<http://purl.org/dc/terms/creator> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/terms/description
+<http://purl.org/dc/terms/description> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/terms/title
+<http://purl.org/dc/terms/title> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://xuanliu-1.github.io/npo#preferredNameSpacePrefix
+<http://xuanliu-1.github.io/npo#preferredNameSpacePrefix> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Object Properties
+# #
+# #################################################################
+# 
+# 
+# http://xuanliu-1.github.io/npo#containsZone
+<http://xuanliu-1.github.io/npo#containsZone> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://xuanliu-1.github.io/npo#containsZone> <http://www.w3.org/2000/01/rdf-schema#domain> <http://xuanliu-1.github.io/npo#Neighbourhood> .
+<http://xuanliu-1.github.io/npo#containsZone> <http://www.w3.org/2000/01/rdf-schema#range> <http://xuanliu-1.github.io/npo#Building> .
+<http://xuanliu-1.github.io/npo#containsZone> <http://www.w3.org/2000/01/rdf-schema#label> "containsZone" .
+# 
+# http://xuanliu-1.github.io/npo#hasConstant
+<http://xuanliu-1.github.io/npo#hasConstant> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://xuanliu-1.github.io/npo#hasConstant> <http://www.w3.org/2000/01/rdf-schema#domain> <http://xuanliu-1.github.io/npo#PVModule> .
+<http://xuanliu-1.github.io/npo#hasConstant> <http://www.w3.org/2000/01/rdf-schema#range> <http://xuanliu-1.github.io/npo#Constant> .
+<http://xuanliu-1.github.io/npo#hasConstant> <http://www.w3.org/2000/01/rdf-schema#label> "hasConstant" .
+# 
+# http://xuanliu-1.github.io/npo#hasProperty
+<http://xuanliu-1.github.io/npo#hasProperty> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://xuanliu-1.github.io/npo#hasProperty> <http://www.w3.org/2000/01/rdf-schema#domain> <http://xuanliu-1.github.io/npo#Neighbourhood> .
+<http://xuanliu-1.github.io/npo#hasProperty> <http://www.w3.org/2000/01/rdf-schema#range> <http://xuanliu-1.github.io/npo#Meteorogical> .
+<http://xuanliu-1.github.io/npo#hasProperty> <http://www.w3.org/2000/01/rdf-schema#range> <http://xuanliu-1.github.io/npo#WeatherRecord> .
+<http://xuanliu-1.github.io/npo#hasProperty> <http://www.w3.org/2000/01/rdf-schema#label> "hasProperty" .
+# 
+# http://xuanliu-1.github.io/npo#hasResult
+<http://xuanliu-1.github.io/npo#hasResult> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://xuanliu-1.github.io/npo#hasResult> <http://www.w3.org/2000/01/rdf-schema#domain> <http://xuanliu-1.github.io/npo#Meteorogical> .
+<http://xuanliu-1.github.io/npo#hasResult> <http://www.w3.org/2000/01/rdf-schema#domain> <http://xuanliu-1.github.io/npo#WeatherRecord> .
+<http://xuanliu-1.github.io/npo#hasResult> <http://www.w3.org/2000/01/rdf-schema#label> "hasResult" .
+# 
+# http://xuanliu-1.github.io/npo#hasRoofType
+<http://xuanliu-1.github.io/npo#hasRoofType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://xuanliu-1.github.io/npo#hasRoofType> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+<http://xuanliu-1.github.io/npo#hasRoofType> <http://www.w3.org/2000/01/rdf-schema#domain> <http://xuanliu-1.github.io/npo#Roof> .
+# 
+# http://xuanliu-1.github.io/npo#isLocatedIn
+<http://xuanliu-1.github.io/npo#isLocatedIn> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://xuanliu-1.github.io/npo#isLocatedIn> <http://www.w3.org/2000/01/rdf-schema#domain> <http://xuanliu-1.github.io/npo#Building> .
+<http://xuanliu-1.github.io/npo#isLocatedIn> <http://www.w3.org/2000/01/rdf-schema#range> <http://xuanliu-1.github.io/npo#Neighbourhood> .
+<http://xuanliu-1.github.io/npo#isLocatedIn> <http://www.w3.org/2000/01/rdf-schema#label> "isLocatedIn" .
+# 
+# http://xuanliu-1.github.io/npo#isPartOf
+<http://xuanliu-1.github.io/npo#isPartOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://xuanliu-1.github.io/npo#isPartOf> <http://www.w3.org/2000/01/rdf-schema#domain> <http://xuanliu-1.github.io/npo#PVArray> .
+<http://xuanliu-1.github.io/npo#isPartOf> <http://www.w3.org/2000/01/rdf-schema#domain> <http://xuanliu-1.github.io/npo#PVModule> .
+<http://xuanliu-1.github.io/npo#isPartOf> <http://www.w3.org/2000/01/rdf-schema#domain> <http://xuanliu-1.github.io/npo#PVPanel> .
+<http://xuanliu-1.github.io/npo#isPartOf> <http://www.w3.org/2000/01/rdf-schema#domain> <http://xuanliu-1.github.io/npo#SolarCell> .
+<http://xuanliu-1.github.io/npo#isPartOf> <http://www.w3.org/2000/01/rdf-schema#range> <http://xuanliu-1.github.io/npo#PVArray> .
+<http://xuanliu-1.github.io/npo#isPartOf> <http://www.w3.org/2000/01/rdf-schema#range> <http://xuanliu-1.github.io/npo#PVModule> .
+<http://xuanliu-1.github.io/npo#isPartOf> <http://www.w3.org/2000/01/rdf-schema#range> <http://xuanliu-1.github.io/npo#PVPanel> .
+<http://xuanliu-1.github.io/npo#isPartOf> <http://www.w3.org/2000/01/rdf-schema#range> <http://xuanliu-1.github.io/npo#PVSystem> .
+<http://xuanliu-1.github.io/npo#isPartOf> <http://www.w3.org/2000/01/rdf-schema#label> "isPartOf" .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Data properties
+# #
+# #################################################################
+# 
+# 
+# http://xuanliu-1.github.io/npo#hasAzimuth
+<http://xuanliu-1.github.io/npo#hasAzimuth> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://xuanliu-1.github.io/npo#hasAzimuth> <http://www.w3.org/2000/01/rdf-schema#domain> <http://xuanliu-1.github.io/npo#PVModule> .
+# 
+# http://xuanliu-1.github.io/npo#hasBAPVAlbedoFactor
+<http://xuanliu-1.github.io/npo#hasBAPVAlbedoFactor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://xuanliu-1.github.io/npo#hasBAPVAlbedoFactor> <http://www.w3.org/2000/01/rdf-schema#domain> <http://xuanliu-1.github.io/npo#Constant> .
+# 
+# http://xuanliu-1.github.io/npo#hasBandgapUtilization
+<http://xuanliu-1.github.io/npo#hasBandgapUtilization> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+# 
+# http://xuanliu-1.github.io/npo#hasBoltzmannConstant
+<http://xuanliu-1.github.io/npo#hasBoltzmannConstant> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://xuanliu-1.github.io/npo#hasBoltzmannConstant> <http://www.w3.org/2000/01/rdf-schema#domain> <http://xuanliu-1.github.io/npo#Constant> .
+# 
+# http://xuanliu-1.github.io/npo#hasCableLossFactor
+<http://xuanliu-1.github.io/npo#hasCableLossFactor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://xuanliu-1.github.io/npo#hasCableLossFactor> <http://www.w3.org/2000/01/rdf-schema#domain> <http://xuanliu-1.github.io/npo#Constant> .
+# 
+# http://xuanliu-1.github.io/npo#hasConfigurationMode
+<http://xuanliu-1.github.io/npo#hasConfigurationMode> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://xuanliu-1.github.io/npo#hasConfigurationMode> <http://www.w3.org/2000/01/rdf-schema#domain> <http://xuanliu-1.github.io/npo#PVModule> .
+# 
+# http://xuanliu-1.github.io/npo#hasConstantA
+<http://xuanliu-1.github.io/npo#hasConstantA> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://xuanliu-1.github.io/npo#hasConstantA> <http://www.w3.org/2000/01/rdf-schema#domain> <http://xuanliu-1.github.io/npo#Constant> .
+# 
+# http://xuanliu-1.github.io/npo#hasConstantB
+<http://xuanliu-1.github.io/npo#hasConstantB> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://xuanliu-1.github.io/npo#hasConstantB> <http://www.w3.org/2000/01/rdf-schema#domain> <http://xuanliu-1.github.io/npo#Constant> .
+# 
+# http://xuanliu-1.github.io/npo#hasDiodeIdealityFactorForMono-Si
+<http://xuanliu-1.github.io/npo#hasDiodeIdealityFactorForMono-Si> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://xuanliu-1.github.io/npo#hasDiodeIdealityFactorForMono-Si> <http://www.w3.org/2000/01/rdf-schema#domain> <http://xuanliu-1.github.io/npo#Constant> .
+# 
+# http://xuanliu-1.github.io/npo#hasDiodeIdealityFactorForPoly-Si
+<http://xuanliu-1.github.io/npo#hasDiodeIdealityFactorForPoly-Si> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://xuanliu-1.github.io/npo#hasDiodeIdealityFactorForPoly-Si> <http://www.w3.org/2000/01/rdf-schema#domain> <http://xuanliu-1.github.io/npo#Constant> .
+# 
+# http://xuanliu-1.github.io/npo#hasDiodeIdealityFactorForThin-film
+<http://xuanliu-1.github.io/npo#hasDiodeIdealityFactorForThin-film> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://xuanliu-1.github.io/npo#hasDiodeIdealityFactorForThin-film> <http://www.w3.org/2000/01/rdf-schema#domain> <http://xuanliu-1.github.io/npo#Constant> .
+# 
+# http://xuanliu-1.github.io/npo#hasElementaryCharge
+<http://xuanliu-1.github.io/npo#hasElementaryCharge> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://xuanliu-1.github.io/npo#hasElementaryCharge> <http://www.w3.org/2000/01/rdf-schema#domain> <http://xuanliu-1.github.io/npo#Constant> .
+# 
+# http://xuanliu-1.github.io/npo#hasFSPVAlbedoFactor
+<http://xuanliu-1.github.io/npo#hasFSPVAlbedoFactor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://xuanliu-1.github.io/npo#hasFSPVAlbedoFactor> <http://www.w3.org/2000/01/rdf-schema#domain> <http://xuanliu-1.github.io/npo#Constant> .
+# 
+# http://xuanliu-1.github.io/npo#hasFillFactor
+<http://xuanliu-1.github.io/npo#hasFillFactor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://xuanliu-1.github.io/npo#hasFillFactor> <http://www.w3.org/2000/01/rdf-schema#domain> <http://xuanliu-1.github.io/npo#Constant> .
+# 
+# http://xuanliu-1.github.io/npo#hasInverterEfficiency
+<http://xuanliu-1.github.io/npo#hasInverterEfficiency> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://xuanliu-1.github.io/npo#hasInverterEfficiency> <http://www.w3.org/2000/01/rdf-schema#domain> <http://xuanliu-1.github.io/npo#Constant> .
+# 
+# http://xuanliu-1.github.io/npo#hasMismatchLoss
+<http://xuanliu-1.github.io/npo#hasMismatchLoss> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://xuanliu-1.github.io/npo#hasMismatchLoss> <http://www.w3.org/2000/01/rdf-schema#domain> <http://xuanliu-1.github.io/npo#Constant> .
+# 
+# http://xuanliu-1.github.io/npo#hasModuleLength
+<http://xuanliu-1.github.io/npo#hasModuleLength> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://xuanliu-1.github.io/npo#hasModuleLength> <http://www.w3.org/2000/01/rdf-schema#domain> <http://xuanliu-1.github.io/npo#Constant> .
+# 
+# http://xuanliu-1.github.io/npo#hasModuleTechnology
+<http://xuanliu-1.github.io/npo#hasModuleTechnology> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://xuanliu-1.github.io/npo#hasModuleTechnology> <http://www.w3.org/2000/01/rdf-schema#domain> <http://xuanliu-1.github.io/npo#PVModule> .
+# 
+# http://xuanliu-1.github.io/npo#hasModuleTemperature
+<http://xuanliu-1.github.io/npo#hasModuleTemperature> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://xuanliu-1.github.io/npo#hasModuleTemperature> <http://www.w3.org/2000/01/rdf-schema#domain> <http://xuanliu-1.github.io/npo#PVModule> .
+# 
+# http://xuanliu-1.github.io/npo#hasModuleWidth
+<http://xuanliu-1.github.io/npo#hasModuleWidth> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://xuanliu-1.github.io/npo#hasModuleWidth> <http://www.w3.org/2000/01/rdf-schema#domain> <http://xuanliu-1.github.io/npo#Constant> .
+# 
+# http://xuanliu-1.github.io/npo#hasNonAbsorption
+<http://xuanliu-1.github.io/npo#hasNonAbsorption> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+# 
+# http://xuanliu-1.github.io/npo#hasNumberOfSeriesConnectedCell
+<http://xuanliu-1.github.io/npo#hasNumberOfSeriesConnectedCell> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+# 
+# http://xuanliu-1.github.io/npo#hasOrientation
+<http://xuanliu-1.github.io/npo#hasOrientation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://xuanliu-1.github.io/npo#hasOrientation> <http://www.w3.org/2000/01/rdf-schema#domain> <http://xuanliu-1.github.io/npo#PVModule> .
+# 
+# http://xuanliu-1.github.io/npo#hasReflectanceLossFactor
+<http://xuanliu-1.github.io/npo#hasReflectanceLossFactor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://xuanliu-1.github.io/npo#hasReflectanceLossFactor> <http://www.w3.org/2000/01/rdf-schema#domain> <http://xuanliu-1.github.io/npo#Constant> .
+# 
+# http://xuanliu-1.github.io/npo#hasRowSpace
+<http://xuanliu-1.github.io/npo#hasRowSpace> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://xuanliu-1.github.io/npo#hasRowSpace> <http://www.w3.org/2000/01/rdf-schema#domain> <http://xuanliu-1.github.io/npo#PVModule> .
+# 
+# http://xuanliu-1.github.io/npo#hasShadedArea
+<http://xuanliu-1.github.io/npo#hasShadedArea> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://xuanliu-1.github.io/npo#hasShadedArea> <http://www.w3.org/2000/01/rdf-schema#domain> <http://xuanliu-1.github.io/npo#PVModule> .
+# 
+# http://xuanliu-1.github.io/npo#hasShadedLength
+<http://xuanliu-1.github.io/npo#hasShadedLength> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://xuanliu-1.github.io/npo#hasShadedLength> <http://www.w3.org/2000/01/rdf-schema#domain> <http://xuanliu-1.github.io/npo#PVModule> .
+# 
+# http://xuanliu-1.github.io/npo#hasShadingLossFactorForBAPV
+<http://xuanliu-1.github.io/npo#hasShadingLossFactorForBAPV> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://xuanliu-1.github.io/npo#hasShadingLossFactorForBAPV> <http://www.w3.org/2000/01/rdf-schema#domain> <http://xuanliu-1.github.io/npo#Constant> .
+# 
+# http://xuanliu-1.github.io/npo#hasShadingLossFactorForFSPV
+<http://xuanliu-1.github.io/npo#hasShadingLossFactorForFSPV> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://xuanliu-1.github.io/npo#hasShadingLossFactorForFSPV> <http://www.w3.org/2000/01/rdf-schema#domain> <http://xuanliu-1.github.io/npo#Constant> .
+# 
+# http://xuanliu-1.github.io/npo#hasSoilingLossFactor
+<http://xuanliu-1.github.io/npo#hasSoilingLossFactor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://xuanliu-1.github.io/npo#hasSoilingLossFactor> <http://www.w3.org/2000/01/rdf-schema#domain> <http://xuanliu-1.github.io/npo#Constant> .
+# 
+# http://xuanliu-1.github.io/npo#hasStandardModuleTemperature
+<http://xuanliu-1.github.io/npo#hasStandardModuleTemperature> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+# 
+# http://xuanliu-1.github.io/npo#hasStandardTestConditionIrradiance
+<http://xuanliu-1.github.io/npo#hasStandardTestConditionIrradiance> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+# 
+# http://xuanliu-1.github.io/npo#hasSurfaceArea
+<http://xuanliu-1.github.io/npo#hasSurfaceArea> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://xuanliu-1.github.io/npo#hasSurfaceArea> <http://www.w3.org/2000/01/rdf-schema#domain> <http://xuanliu-1.github.io/npo#PVModule> .
+# 
+# http://xuanliu-1.github.io/npo#hasSystemType
+<http://xuanliu-1.github.io/npo#hasSystemType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+# 
+# http://xuanliu-1.github.io/npo#hasThermalization
+<http://xuanliu-1.github.io/npo#hasThermalization> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+# 
+# http://xuanliu-1.github.io/npo#hasTilt
+<http://xuanliu-1.github.io/npo#hasTilt> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://xuanliu-1.github.io/npo#hasTilt> <http://www.w3.org/2000/01/rdf-schema#domain> <http://xuanliu-1.github.io/npo#PVModule> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Classes
+# #
+# #################################################################
+# 
+# 
+# http://xuanliu-1.github.io/npo#BAPV
+<http://xuanliu-1.github.io/npo#BAPV> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://xuanliu-1.github.io/npo#BAPV> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://xuanliu-1.github.io/npo#PVSystem> .
+<http://xuanliu-1.github.io/npo#BAPV> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid1 .
+_:genid1 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://xuanliu-1.github.io/npo#Roof> .
+_:genid1 <http://www.w3.org/2002/07/owl#onProperty> <http://xuanliu-1.github.io/npo#isPartOf> .
+_:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://xuanliu-1.github.io/npo#BAPV> <http://www.w3.org/2002/07/owl#disjointWith> <http://xuanliu-1.github.io/npo#FSPV> .
+# 
+# http://xuanliu-1.github.io/npo#Building
+<http://xuanliu-1.github.io/npo#Building> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://xuanliu-1.github.io/npo#Building> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid2 .
+_:genid2 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://xuanliu-1.github.io/npo#Neighbourhood> .
+_:genid2 <http://www.w3.org/2002/07/owl#onProperty> <http://xuanliu-1.github.io/npo#isLocatedIn> .
+_:genid2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+# 
+# http://xuanliu-1.github.io/npo#Constant
+<http://xuanliu-1.github.io/npo#Constant> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://xuanliu-1.github.io/npo#FSPV
+<http://xuanliu-1.github.io/npo#FSPV> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://xuanliu-1.github.io/npo#FSPV> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://xuanliu-1.github.io/npo#PVSystem> .
+<http://xuanliu-1.github.io/npo#FSPV> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid3 .
+_:genid3 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://xuanliu-1.github.io/npo#Neighbourhood> .
+_:genid3 <http://www.w3.org/2002/07/owl#onProperty> <http://xuanliu-1.github.io/npo#isPartOf> .
+_:genid3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+# 
+# http://xuanliu-1.github.io/npo#Meteorogical
+<http://xuanliu-1.github.io/npo#Meteorogical> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://xuanliu-1.github.io/npo#Meteorogical> <http://www.w3.org/2000/01/rdf-schema#comment> "Meteorological query from database." .
+<http://xuanliu-1.github.io/npo#Meteorogical> <http://www.w3.org/2000/01/rdf-schema#label> "Meteorological" .
+# 
+# http://xuanliu-1.github.io/npo#Neighbourhood
+<http://xuanliu-1.github.io/npo#Neighbourhood> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://xuanliu-1.github.io/npo#Neighbourhood> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid4 .
+_:genid4 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://xuanliu-1.github.io/npo#Meteorogical> .
+_:genid4 <http://www.w3.org/2002/07/owl#onProperty> <http://xuanliu-1.github.io/npo#hasProperty> .
+_:genid4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://xuanliu-1.github.io/npo#Neighbourhood> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid5 .
+_:genid5 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://xuanliu-1.github.io/npo#WeatherRecord> .
+_:genid5 <http://www.w3.org/2002/07/owl#onProperty> <http://xuanliu-1.github.io/npo#hasProperty> .
+_:genid5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+# 
+# http://xuanliu-1.github.io/npo#PVArray
+<http://xuanliu-1.github.io/npo#PVArray> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://xuanliu-1.github.io/npo#PVArray> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid6 .
+_:genid6 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://xuanliu-1.github.io/npo#Constant> .
+_:genid6 <http://www.w3.org/2002/07/owl#onProperty> <http://xuanliu-1.github.io/npo#hasConstant> .
+_:genid6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://xuanliu-1.github.io/npo#PVArray> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid7 .
+_:genid7 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://xuanliu-1.github.io/npo#PVSystem> .
+_:genid7 <http://www.w3.org/2002/07/owl#onProperty> <http://xuanliu-1.github.io/npo#isPartOf> .
+_:genid7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+# 
+# http://xuanliu-1.github.io/npo#PVModule
+<http://xuanliu-1.github.io/npo#PVModule> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://xuanliu-1.github.io/npo#PVModule> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid8 .
+_:genid8 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://xuanliu-1.github.io/npo#PVPanel> .
+_:genid8 <http://www.w3.org/2002/07/owl#onProperty> <http://xuanliu-1.github.io/npo#isPartOf> .
+_:genid8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+# 
+# http://xuanliu-1.github.io/npo#PVPanel
+<http://xuanliu-1.github.io/npo#PVPanel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://xuanliu-1.github.io/npo#PVPanel> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid9 .
+_:genid9 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://xuanliu-1.github.io/npo#PVArray> .
+_:genid9 <http://www.w3.org/2002/07/owl#onProperty> <http://xuanliu-1.github.io/npo#isPartOf> .
+_:genid9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+# 
+# http://xuanliu-1.github.io/npo#PVSystem
+<http://xuanliu-1.github.io/npo#PVSystem> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://xuanliu-1.github.io/npo#Roof
+<http://xuanliu-1.github.io/npo#Roof> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://xuanliu-1.github.io/npo#Roof> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid10 .
+_:genid10 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://xuanliu-1.github.io/npo#Building> .
+_:genid10 <http://www.w3.org/2002/07/owl#onProperty> <http://xuanliu-1.github.io/npo#isPartOf> .
+_:genid10 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+# 
+# http://xuanliu-1.github.io/npo#SolarCell
+<http://xuanliu-1.github.io/npo#SolarCell> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://xuanliu-1.github.io/npo#SolarCell> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid11 .
+_:genid11 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://xuanliu-1.github.io/npo#PVModule> .
+_:genid11 <http://www.w3.org/2002/07/owl#onProperty> <http://xuanliu-1.github.io/npo#isPartOf> .
+_:genid11 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+# 
+# http://xuanliu-1.github.io/npo#WeatherRecord
+<http://xuanliu-1.github.io/npo#WeatherRecord> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://xuanliu-1.github.io/npo#WeatherRecord> <http://www.w3.org/2000/01/rdf-schema#comment> "WeatherRecord query from database." .
+<http://xuanliu-1.github.io/npo#WeatherRecord> <http://www.w3.org/2000/01/rdf-schema#label> "WeatherRecord" .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Individuals
+# #
+# #################################################################
+# 
+# 
+# http://xuanliu-1.github.io/npo#Building
+<http://xuanliu-1.github.io/npo#Building> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+# 
+# http://xuanliu-1.github.io/npo#Constant
+<http://xuanliu-1.github.io/npo#Constant> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://xuanliu-1.github.io/npo#Constant> <http://xuanliu-1.github.io/npo#hasBAPVAlbedoFactor> "0.15"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://xuanliu-1.github.io/npo#Constant> <http://xuanliu-1.github.io/npo#hasBoltzmannConstant> "1.38"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://xuanliu-1.github.io/npo#Constant> <http://xuanliu-1.github.io/npo#hasCableLossFactor> "0.005"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://xuanliu-1.github.io/npo#Constant> <http://xuanliu-1.github.io/npo#hasConstantA> "-0.01"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://xuanliu-1.github.io/npo#Constant> <http://xuanliu-1.github.io/npo#hasConstantB> "-0.02"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://xuanliu-1.github.io/npo#Constant> <http://xuanliu-1.github.io/npo#hasDiodeIdealityFactorForMono-Si> "1.0"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://xuanliu-1.github.io/npo#Constant> <http://xuanliu-1.github.io/npo#hasDiodeIdealityFactorForPoly-Si> "1.5"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://xuanliu-1.github.io/npo#Constant> <http://xuanliu-1.github.io/npo#hasDiodeIdealityFactorForThin-film> "2.0"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://xuanliu-1.github.io/npo#Constant> <http://xuanliu-1.github.io/npo#hasElementaryCharge> "1.602"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://xuanliu-1.github.io/npo#Constant> <http://xuanliu-1.github.io/npo#hasFSPVAlbedoFactor> "0.24"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://xuanliu-1.github.io/npo#Constant> <http://xuanliu-1.github.io/npo#hasFillFactor> "1.0"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://xuanliu-1.github.io/npo#Constant> <http://xuanliu-1.github.io/npo#hasMismatchLoss> "0.015"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://xuanliu-1.github.io/npo#Constant> <http://xuanliu-1.github.io/npo#hasReflectanceLossFactor> "0.04"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://xuanliu-1.github.io/npo#Constant> <http://xuanliu-1.github.io/npo#hasShadingLossFactorForBAPV> "0.0688"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://xuanliu-1.github.io/npo#Constant> <http://xuanliu-1.github.io/npo#hasShadingLossFactorForFSPV> "0.0"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://xuanliu-1.github.io/npo#Constant> <http://xuanliu-1.github.io/npo#hasSoilingLossFactor> "8.3E-4"^^<http://www.w3.org/2001/XMLSchema#float> .
+# 
+# http://xuanliu-1.github.io/npo#Neighbourhood
+<http://xuanliu-1.github.io/npo#Neighbourhood> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+# 
+# http://xuanliu-1.github.io/npo#PVArray
+<http://xuanliu-1.github.io/npo#PVArray> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+# 
+# http://xuanliu-1.github.io/npo#PVModule
+<http://xuanliu-1.github.io/npo#PVModule> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://xuanliu-1.github.io/npo#PVModule> <http://xuanliu-1.github.io/npo#hasAzimuth> "180.0"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://xuanliu-1.github.io/npo#PVModule> <http://xuanliu-1.github.io/npo#hasAzimuth> "270.0"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://xuanliu-1.github.io/npo#PVModule> <http://xuanliu-1.github.io/npo#hasAzimuth> "90.0"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://xuanliu-1.github.io/npo#PVModule> <http://xuanliu-1.github.io/npo#hasConfigurationMode> "EW" .
+<http://xuanliu-1.github.io/npo#PVModule> <http://xuanliu-1.github.io/npo#hasConfigurationMode> "east" .
+<http://xuanliu-1.github.io/npo#PVModule> <http://xuanliu-1.github.io/npo#hasConfigurationMode> "south" .
+<http://xuanliu-1.github.io/npo#PVModule> <http://xuanliu-1.github.io/npo#hasConfigurationMode> "west" .
+<http://xuanliu-1.github.io/npo#PVModule> <http://xuanliu-1.github.io/npo#hasModuleLength> "3.0"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://xuanliu-1.github.io/npo#PVModule> <http://xuanliu-1.github.io/npo#hasModuleTechnology> "c-Si" .
+<http://xuanliu-1.github.io/npo#PVModule> <http://xuanliu-1.github.io/npo#hasModuleTechnology> "poly-Si" .
+<http://xuanliu-1.github.io/npo#PVModule> <http://xuanliu-1.github.io/npo#hasModuleTechnology> "thin-film" .
+<http://xuanliu-1.github.io/npo#PVModule> <http://xuanliu-1.github.io/npo#hasModuleTemperature> "23.0"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://xuanliu-1.github.io/npo#PVModule> <http://xuanliu-1.github.io/npo#hasModuleWidth> "1.0"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://xuanliu-1.github.io/npo#PVModule> <http://xuanliu-1.github.io/npo#hasNumberOfSeriesConnectedCell> "30.0"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://xuanliu-1.github.io/npo#PVModule> <http://xuanliu-1.github.io/npo#hasOrientation> "landscape" .
+<http://xuanliu-1.github.io/npo#PVModule> <http://xuanliu-1.github.io/npo#hasOrientation> "portrait" .
+<http://xuanliu-1.github.io/npo#PVModule> <http://xuanliu-1.github.io/npo#hasRowSpace> "2.0"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://xuanliu-1.github.io/npo#PVModule> <http://xuanliu-1.github.io/npo#hasShadedArea> "5.0"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://xuanliu-1.github.io/npo#PVModule> <http://xuanliu-1.github.io/npo#hasShadedLength> "0.5"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://xuanliu-1.github.io/npo#PVModule> <http://xuanliu-1.github.io/npo#hasStandardModuleTemperature> "25.0"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://xuanliu-1.github.io/npo#PVModule> <http://xuanliu-1.github.io/npo#hasSurfaceArea> "30.0"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://xuanliu-1.github.io/npo#PVModule> <http://xuanliu-1.github.io/npo#hasTilt> "30.0"^^<http://www.w3.org/2001/XMLSchema#float> .
+# 
+# http://xuanliu-1.github.io/npo#PVPanel
+<http://xuanliu-1.github.io/npo#PVPanel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+# 
+# http://xuanliu-1.github.io/npo#PVSystem
+<http://xuanliu-1.github.io/npo#PVSystem> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+# 
+# http://xuanliu-1.github.io/npo#Roof
+<http://xuanliu-1.github.io/npo#Roof> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+# 
+# http://xuanliu-1.github.io/npo#SolarCell
+<http://xuanliu-1.github.io/npo#SolarCell> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Annotations
+# #
+# #################################################################
+# 
+# 
+<http://xuanliu-1.github.io/npo#Building> <http://www.w3.org/2000/01/rdf-schema#comment> "A building located in a neighbourhood." .
+<http://xuanliu-1.github.io/npo#Building> <http://www.w3.org/2000/01/rdf-schema#label> "Building" .
+# 
+<http://xuanliu-1.github.io/npo#Constant> <http://www.w3.org/2000/01/rdf-schema#comment> "Constants for PV generation estimation." .
+<http://xuanliu-1.github.io/npo#Constant> <http://www.w3.org/2000/01/rdf-schema#label> "Constant" .
+# 
+<http://xuanliu-1.github.io/npo#Neighbourhood> <http://www.w3.org/2000/01/rdf-schema#comment> "A neighbourhood." .
+<http://xuanliu-1.github.io/npo#Neighbourhood> <http://www.w3.org/2000/01/rdf-schema#label> "Neighbourhood" .
+# 
+<http://xuanliu-1.github.io/npo#PVArray> <http://www.w3.org/2000/01/rdf-schema#comment> "The components consist of a PV system." .
+<http://xuanliu-1.github.io/npo#PVArray> <http://www.w3.org/2000/01/rdf-schema#label> "PVArray" .
+# 
+<http://xuanliu-1.github.io/npo#PVModule> <http://www.w3.org/2000/01/rdf-schema#comment> "The components consist of a PV panel." .
+<http://xuanliu-1.github.io/npo#PVModule> <http://www.w3.org/2000/01/rdf-schema#label> "PVModule" .
+# 
+<http://xuanliu-1.github.io/npo#PVPanel> <http://www.w3.org/2000/01/rdf-schema#comment> "The components consist of a PV Array." .
+<http://xuanliu-1.github.io/npo#PVPanel> <http://www.w3.org/2000/01/rdf-schema#label> "PVPanel" .
+# 
+<http://xuanliu-1.github.io/npo#Roof> <http://www.w3.org/2000/01/rdf-schema#comment> "An element of a building." .
+<http://xuanliu-1.github.io/npo#Roof> <http://www.w3.org/2000/01/rdf-schema#label> "Roof" .
+# 
+<http://xuanliu-1.github.io/npo#SolarCell> <http://www.w3.org/2000/01/rdf-schema#comment> "The components consist of a PV module." .
+<http://xuanliu-1.github.io/npo#SolarCell> <http://www.w3.org/2000/01/rdf-schema#label> "SolarCell" .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    General axioms
+# #
+# #################################################################
+# 
+# 
+_:genid12 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AllDisjointClasses> .
+_:genid12 <http://www.w3.org/2002/07/owl#members> _:genid23 .
+_:genid23 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid22 .
+_:genid22 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid21 .
+_:genid21 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid20 .
+_:genid20 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid19 .
+_:genid19 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid18 .
+_:genid18 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid17 .
+_:genid17 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid16 .
+_:genid16 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid15 .
+_:genid15 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid14 .
+_:genid14 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid13 .
+_:genid13 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid13 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://xuanliu-1.github.io/npo#WeatherRecord> .
+_:genid13 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid14 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://xuanliu-1.github.io/npo#SolarCell> .
+_:genid14 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid15 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://xuanliu-1.github.io/npo#Roof> .
+_:genid15 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid16 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://xuanliu-1.github.io/npo#PVSystem> .
+_:genid16 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid17 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://xuanliu-1.github.io/npo#PVPanel> .
+_:genid17 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid18 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://xuanliu-1.github.io/npo#PVModule> .
+_:genid18 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid19 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://xuanliu-1.github.io/npo#PVArray> .
+_:genid19 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid20 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://xuanliu-1.github.io/npo#Neighbourhood> .
+_:genid20 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid21 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://xuanliu-1.github.io/npo#Meteorogical> .
+_:genid21 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid22 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://xuanliu-1.github.io/npo#Constant> .
+_:genid22 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid23 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://xuanliu-1.github.io/npo#Building> .
+_:genid23 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+# 
+# Generated by the OWL API (version 5.1.18) https://github.com/owlcs/owlapi/
