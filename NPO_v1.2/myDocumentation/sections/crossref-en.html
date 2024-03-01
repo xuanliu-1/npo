@@ -1,0 +1,1824 @@
+<h2 id="crossreference" class="list">Cross-reference for Neighbourhood Photovoltaic Generation Ontology classes, object properties and data properties <span class="backlink"> back to <a href="#toc">ToC</a></span></h2>
+This section provides details for each class and property defined by Neighbourhood Photovoltaic Generation Ontology.
+<div xmlns:widoco="https://w3id.org/widoco/vocab#"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     id="classes">
+   <h3 id="classes-headline" class="list">Classes</h3>
+   <ul class="hlist">
+      <li>
+         <a href="#BAPV" title="http://xuanliu-1.github.io/npo#BAPV">
+            <span>b a p v</span>
+         </a>
+      </li>
+      <li>
+         <a href="#Building" title="http://xuanliu-1.github.io/npo#Building">
+            <span>Building</span>
+         </a>
+      </li>
+      <li>
+         <a href="#FSPV" title="http://xuanliu-1.github.io/npo#FSPV">
+            <span>f s p v</span>
+         </a>
+      </li>
+      <li>
+         <a href="#Meteorogical" title="http://xuanliu-1.github.io/npo#Meteorogical">Meteorological</a>
+      </li>
+      <li>
+         <a href="#Neighbourhood" title="http://xuanliu-1.github.io/npo#Neighbourhood">
+            <span>Neighbourhood</span>
+         </a>
+      </li>
+      <li>
+         <a href="#PVArray" title="http://xuanliu-1.github.io/npo#PVArray">
+            <span>PVArray</span>
+         </a>
+      </li>
+      <li>
+         <a href="#PVModule" title="http://xuanliu-1.github.io/npo#PVModule">
+            <span>PVModule</span>
+         </a>
+      </li>
+      <li>
+         <a href="#PVPanel" title="http://xuanliu-1.github.io/npo#PVPanel">
+            <span>PVPanel</span>
+         </a>
+      </li>
+      <li>
+         <a href="#Roof" title="http://xuanliu-1.github.io/npo#Roof">
+            <span>Roof</span>
+         </a>
+      </li>
+      <li>
+         <a href="#SolarCell" title="http://xuanliu-1.github.io/npo#SolarCell">
+            <span>SolarCell</span>
+         </a>
+      </li>
+      <li>
+         <a href="#WeatherRecord" title="http://xuanliu-1.github.io/npo#WeatherRecord">WeatherRecord</a>
+      </li>
+   </ul>
+   <div class="entity" id="BAPV">
+      <h3>b a p v<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://xuanliu-1.github.io/npo#BAPV</p>
+      <dl class="description">
+         <dt>has super-classes</dt>
+         <dd>
+            <a href="http://xuanliu-1.github.io/npo#PVSystem"
+               target="_blank"
+               title="http://xuanliu-1.github.io/npo#PVSystem">p v system</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+         <dt>is disjoint with</dt>
+         <dd>
+            <a href="#FSPV" title="http://xuanliu-1.github.io/npo#FSPV">f s p v</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="Building">
+      <h3>Building<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://xuanliu-1.github.io/npo#Building</p>
+      <dl class="description">
+         <dt>has super-classes</dt>
+         <dd/>
+         <dt>is in domain of</dt>
+         <dd>
+            <a href="#isLocatedIn" title="http://xuanliu-1.github.io/npo#isLocatedIn">isLocatedIn</a>
+            <sup class="type-op" title="object property">op</sup>
+         </dd>
+         <dt>is in range of</dt>
+         <dd>
+            <a href="#containsZone" title="http://xuanliu-1.github.io/npo#containsZone">containsZone</a>
+            <sup class="type-op" title="object property">op</sup>
+         </dd>
+         <dt>is disjoint with</dt>
+         <dd>
+            <a href="http://xuanliu-1.github.io/npo#Constant"
+               target="_blank"
+               title="http://xuanliu-1.github.io/npo#Constant">Constant</a>
+            <sup class="type-c" title="class">c</sup>, <a href="#Meteorogical" title="http://xuanliu-1.github.io/npo#Meteorogical">Meteorological</a>
+            <sup class="type-c" title="class">c</sup>, <a href="#Neighbourhood" title="http://xuanliu-1.github.io/npo#Neighbourhood">Neighbourhood</a>
+            <sup class="type-c" title="class">c</sup>, <a href="#PVArray" title="http://xuanliu-1.github.io/npo#PVArray">PVArray</a>
+            <sup class="type-c" title="class">c</sup>, <a href="#PVModule" title="http://xuanliu-1.github.io/npo#PVModule">PVModule</a>
+            <sup class="type-c" title="class">c</sup>, <a href="#PVPanel" title="http://xuanliu-1.github.io/npo#PVPanel">PVPanel</a>
+            <sup class="type-c" title="class">c</sup>, <a href="http://xuanliu-1.github.io/npo#PVSystem"
+               target="_blank"
+               title="http://xuanliu-1.github.io/npo#PVSystem">p v system</a>
+            <sup class="type-c" title="class">c</sup>, <a href="#Roof" title="http://xuanliu-1.github.io/npo#Roof">Roof</a>
+            <sup class="type-c" title="class">c</sup>, <a href="#SolarCell" title="http://xuanliu-1.github.io/npo#SolarCell">SolarCell</a>
+            <sup class="type-c" title="class">c</sup>, <a href="#WeatherRecord" title="http://xuanliu-1.github.io/npo#WeatherRecord">WeatherRecord</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+         <dt>is also defined as</dt>
+         <dd>named individual</dd>
+      </dl>
+   </div>
+   <div class="entity" id="FSPV">
+      <h3>f s p v<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://xuanliu-1.github.io/npo#FSPV</p>
+      <dl class="description">
+         <dt>has super-classes</dt>
+         <dd>
+            <a href="http://xuanliu-1.github.io/npo#PVSystem"
+               target="_blank"
+               title="http://xuanliu-1.github.io/npo#PVSystem">p v system</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+         <dt>is disjoint with</dt>
+         <dd>
+            <a href="#BAPV" title="http://xuanliu-1.github.io/npo#BAPV">b a p v</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="Meteorogical">
+      <h3>Meteorological<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://xuanliu-1.github.io/npo#Meteorogical</p>
+      <div class="comment">
+         <span class="markdown">Meteorological query from database.</span>
+      </div>
+      <dl class="description">
+         <dt>is in domain of</dt>
+         <dd>
+            <a href="#hasResult" title="http://xuanliu-1.github.io/npo#hasResult">hasResult</a>
+            <sup class="type-op" title="object property">op</sup>
+         </dd>
+         <dt>is in range of</dt>
+         <dd>
+            <a href="#hasProperty" title="http://xuanliu-1.github.io/npo#hasProperty">hasProperty</a>
+            <sup class="type-op" title="object property">op</sup>
+         </dd>
+         <dt>is disjoint with</dt>
+         <dd>
+            <a href="#Building" title="http://xuanliu-1.github.io/npo#Building">Building</a>
+            <sup class="type-c" title="class">c</sup>, <a href="http://xuanliu-1.github.io/npo#Constant"
+               target="_blank"
+               title="http://xuanliu-1.github.io/npo#Constant">Constant</a>
+            <sup class="type-c" title="class">c</sup>, <a href="#Neighbourhood" title="http://xuanliu-1.github.io/npo#Neighbourhood">Neighbourhood</a>
+            <sup class="type-c" title="class">c</sup>, <a href="#PVArray" title="http://xuanliu-1.github.io/npo#PVArray">PVArray</a>
+            <sup class="type-c" title="class">c</sup>, <a href="#PVModule" title="http://xuanliu-1.github.io/npo#PVModule">PVModule</a>
+            <sup class="type-c" title="class">c</sup>, <a href="#PVPanel" title="http://xuanliu-1.github.io/npo#PVPanel">PVPanel</a>
+            <sup class="type-c" title="class">c</sup>, <a href="http://xuanliu-1.github.io/npo#PVSystem"
+               target="_blank"
+               title="http://xuanliu-1.github.io/npo#PVSystem">p v system</a>
+            <sup class="type-c" title="class">c</sup>, <a href="#Roof" title="http://xuanliu-1.github.io/npo#Roof">Roof</a>
+            <sup class="type-c" title="class">c</sup>, <a href="#SolarCell" title="http://xuanliu-1.github.io/npo#SolarCell">SolarCell</a>
+            <sup class="type-c" title="class">c</sup>, <a href="#WeatherRecord" title="http://xuanliu-1.github.io/npo#WeatherRecord">WeatherRecord</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="Neighbourhood">
+      <h3>Neighbourhood<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://xuanliu-1.github.io/npo#Neighbourhood</p>
+      <dl class="description">
+         <dt>has super-classes</dt>
+         <dd/>
+         <dt>is in domain of</dt>
+         <dd>
+            <a href="#containsZone" title="http://xuanliu-1.github.io/npo#containsZone">containsZone</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#hasProperty" title="http://xuanliu-1.github.io/npo#hasProperty">hasProperty</a>
+            <sup class="type-op" title="object property">op</sup>
+         </dd>
+         <dt>is in range of</dt>
+         <dd>
+            <a href="#isLocatedIn" title="http://xuanliu-1.github.io/npo#isLocatedIn">isLocatedIn</a>
+            <sup class="type-op" title="object property">op</sup>
+         </dd>
+         <dt>is disjoint with</dt>
+         <dd>
+            <a href="#Building" title="http://xuanliu-1.github.io/npo#Building">Building</a>
+            <sup class="type-c" title="class">c</sup>, <a href="http://xuanliu-1.github.io/npo#Constant"
+               target="_blank"
+               title="http://xuanliu-1.github.io/npo#Constant">Constant</a>
+            <sup class="type-c" title="class">c</sup>, <a href="#Meteorogical" title="http://xuanliu-1.github.io/npo#Meteorogical">Meteorological</a>
+            <sup class="type-c" title="class">c</sup>, <a href="#PVArray" title="http://xuanliu-1.github.io/npo#PVArray">PVArray</a>
+            <sup class="type-c" title="class">c</sup>, <a href="#PVModule" title="http://xuanliu-1.github.io/npo#PVModule">PVModule</a>
+            <sup class="type-c" title="class">c</sup>, <a href="#PVPanel" title="http://xuanliu-1.github.io/npo#PVPanel">PVPanel</a>
+            <sup class="type-c" title="class">c</sup>, <a href="http://xuanliu-1.github.io/npo#PVSystem"
+               target="_blank"
+               title="http://xuanliu-1.github.io/npo#PVSystem">p v system</a>
+            <sup class="type-c" title="class">c</sup>, <a href="#Roof" title="http://xuanliu-1.github.io/npo#Roof">Roof</a>
+            <sup class="type-c" title="class">c</sup>, <a href="#SolarCell" title="http://xuanliu-1.github.io/npo#SolarCell">SolarCell</a>
+            <sup class="type-c" title="class">c</sup>, <a href="#WeatherRecord" title="http://xuanliu-1.github.io/npo#WeatherRecord">WeatherRecord</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+         <dt>is also defined as</dt>
+         <dd>named individual</dd>
+      </dl>
+   </div>
+   <div class="entity" id="PVArray">
+      <h3>PVArray<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://xuanliu-1.github.io/npo#PVArray</p>
+      <dl class="description">
+         <dt>has super-classes</dt>
+         <dd/>
+         <dt>is in domain of</dt>
+         <dd>
+            <a href="#isPartOf" title="http://xuanliu-1.github.io/npo#isPartOf">isPartOf</a>
+            <sup class="type-op" title="object property">op</sup>
+         </dd>
+         <dt>is in range of</dt>
+         <dd>
+            <a href="#isPartOf" title="http://xuanliu-1.github.io/npo#isPartOf">isPartOf</a>
+            <sup class="type-op" title="object property">op</sup>
+         </dd>
+         <dt>is disjoint with</dt>
+         <dd>
+            <a href="#Building" title="http://xuanliu-1.github.io/npo#Building">Building</a>
+            <sup class="type-c" title="class">c</sup>, <a href="http://xuanliu-1.github.io/npo#Constant"
+               target="_blank"
+               title="http://xuanliu-1.github.io/npo#Constant">Constant</a>
+            <sup class="type-c" title="class">c</sup>, <a href="#Meteorogical" title="http://xuanliu-1.github.io/npo#Meteorogical">Meteorological</a>
+            <sup class="type-c" title="class">c</sup>, <a href="#Neighbourhood" title="http://xuanliu-1.github.io/npo#Neighbourhood">Neighbourhood</a>
+            <sup class="type-c" title="class">c</sup>, <a href="#PVModule" title="http://xuanliu-1.github.io/npo#PVModule">PVModule</a>
+            <sup class="type-c" title="class">c</sup>, <a href="#PVPanel" title="http://xuanliu-1.github.io/npo#PVPanel">PVPanel</a>
+            <sup class="type-c" title="class">c</sup>, <a href="http://xuanliu-1.github.io/npo#PVSystem"
+               target="_blank"
+               title="http://xuanliu-1.github.io/npo#PVSystem">p v system</a>
+            <sup class="type-c" title="class">c</sup>, <a href="#Roof" title="http://xuanliu-1.github.io/npo#Roof">Roof</a>
+            <sup class="type-c" title="class">c</sup>, <a href="#SolarCell" title="http://xuanliu-1.github.io/npo#SolarCell">SolarCell</a>
+            <sup class="type-c" title="class">c</sup>, <a href="#WeatherRecord" title="http://xuanliu-1.github.io/npo#WeatherRecord">WeatherRecord</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+         <dt>is also defined as</dt>
+         <dd>named individual</dd>
+      </dl>
+   </div>
+   <div class="entity" id="PVModule">
+      <h3>PVModule<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://xuanliu-1.github.io/npo#PVModule</p>
+      <dl class="description">
+         <dt>has super-classes</dt>
+         <dd/>
+         <dt>is in domain of</dt>
+         <dd>
+            <a href="#hasAzimuth" title="http://xuanliu-1.github.io/npo#hasAzimuth">has azimuth</a>
+            <sup class="type-dp" title="data property">dp</sup>, <a href="#hasConfigurationMode"
+               title="http://xuanliu-1.github.io/npo#hasConfigurationMode">has configuration mode</a>
+            <sup class="type-dp" title="data property">dp</sup>, <a href="#hasModuleTechnology"
+               title="http://xuanliu-1.github.io/npo#hasModuleTechnology">has module technology</a>
+            <sup class="type-dp" title="data property">dp</sup>, <a href="#hasModuleTemperature"
+               title="http://xuanliu-1.github.io/npo#hasModuleTemperature">has module temperature</a>
+            <sup class="type-dp" title="data property">dp</sup>, <a href="#hasOrientation" title="http://xuanliu-1.github.io/npo#hasOrientation">has orientation</a>
+            <sup class="type-dp" title="data property">dp</sup>, <a href="#hasRowSpace" title="http://xuanliu-1.github.io/npo#hasRowSpace">has row space</a>
+            <sup class="type-dp" title="data property">dp</sup>, <a href="#hasShadedArea" title="http://xuanliu-1.github.io/npo#hasShadedArea">has shaded area</a>
+            <sup class="type-dp" title="data property">dp</sup>, <a href="#hasShadedLength" title="http://xuanliu-1.github.io/npo#hasShadedLength">has shaded length</a>
+            <sup class="type-dp" title="data property">dp</sup>, <a href="#hasSurfaceArea" title="http://xuanliu-1.github.io/npo#hasSurfaceArea">has surface area</a>
+            <sup class="type-dp" title="data property">dp</sup>, <a href="#hasTilt" title="http://xuanliu-1.github.io/npo#hasTilt">has tilt</a>
+            <sup class="type-dp" title="data property">dp</sup>, <a href="#hasConstant" title="http://xuanliu-1.github.io/npo#hasConstant">hasConstant</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#isPartOf" title="http://xuanliu-1.github.io/npo#isPartOf">isPartOf</a>
+            <sup class="type-op" title="object property">op</sup>
+         </dd>
+         <dt>is in range of</dt>
+         <dd>
+            <a href="#isPartOf" title="http://xuanliu-1.github.io/npo#isPartOf">isPartOf</a>
+            <sup class="type-op" title="object property">op</sup>
+         </dd>
+         <dt>is disjoint with</dt>
+         <dd>
+            <a href="#Building" title="http://xuanliu-1.github.io/npo#Building">Building</a>
+            <sup class="type-c" title="class">c</sup>, <a href="http://xuanliu-1.github.io/npo#Constant"
+               target="_blank"
+               title="http://xuanliu-1.github.io/npo#Constant">Constant</a>
+            <sup class="type-c" title="class">c</sup>, <a href="#Meteorogical" title="http://xuanliu-1.github.io/npo#Meteorogical">Meteorological</a>
+            <sup class="type-c" title="class">c</sup>, <a href="#Neighbourhood" title="http://xuanliu-1.github.io/npo#Neighbourhood">Neighbourhood</a>
+            <sup class="type-c" title="class">c</sup>, <a href="#PVArray" title="http://xuanliu-1.github.io/npo#PVArray">PVArray</a>
+            <sup class="type-c" title="class">c</sup>, <a href="#PVPanel" title="http://xuanliu-1.github.io/npo#PVPanel">PVPanel</a>
+            <sup class="type-c" title="class">c</sup>, <a href="http://xuanliu-1.github.io/npo#PVSystem"
+               target="_blank"
+               title="http://xuanliu-1.github.io/npo#PVSystem">p v system</a>
+            <sup class="type-c" title="class">c</sup>, <a href="#Roof" title="http://xuanliu-1.github.io/npo#Roof">Roof</a>
+            <sup class="type-c" title="class">c</sup>, <a href="#SolarCell" title="http://xuanliu-1.github.io/npo#SolarCell">SolarCell</a>
+            <sup class="type-c" title="class">c</sup>, <a href="#WeatherRecord" title="http://xuanliu-1.github.io/npo#WeatherRecord">WeatherRecord</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+         <dt>is also defined as</dt>
+         <dd>
+            <a href="#PVModule">named individual</a>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="PVPanel">
+      <h3>PVPanel<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://xuanliu-1.github.io/npo#PVPanel</p>
+      <dl class="description">
+         <dt>has super-classes</dt>
+         <dd/>
+         <dt>is in domain of</dt>
+         <dd>
+            <a href="#isPartOf" title="http://xuanliu-1.github.io/npo#isPartOf">isPartOf</a>
+            <sup class="type-op" title="object property">op</sup>
+         </dd>
+         <dt>is in range of</dt>
+         <dd>
+            <a href="#isPartOf" title="http://xuanliu-1.github.io/npo#isPartOf">isPartOf</a>
+            <sup class="type-op" title="object property">op</sup>
+         </dd>
+         <dt>is disjoint with</dt>
+         <dd>
+            <a href="#Building" title="http://xuanliu-1.github.io/npo#Building">Building</a>
+            <sup class="type-c" title="class">c</sup>, <a href="http://xuanliu-1.github.io/npo#Constant"
+               target="_blank"
+               title="http://xuanliu-1.github.io/npo#Constant">Constant</a>
+            <sup class="type-c" title="class">c</sup>, <a href="#Meteorogical" title="http://xuanliu-1.github.io/npo#Meteorogical">Meteorological</a>
+            <sup class="type-c" title="class">c</sup>, <a href="#Neighbourhood" title="http://xuanliu-1.github.io/npo#Neighbourhood">Neighbourhood</a>
+            <sup class="type-c" title="class">c</sup>, <a href="#PVArray" title="http://xuanliu-1.github.io/npo#PVArray">PVArray</a>
+            <sup class="type-c" title="class">c</sup>, <a href="#PVModule" title="http://xuanliu-1.github.io/npo#PVModule">PVModule</a>
+            <sup class="type-c" title="class">c</sup>, <a href="http://xuanliu-1.github.io/npo#PVSystem"
+               target="_blank"
+               title="http://xuanliu-1.github.io/npo#PVSystem">p v system</a>
+            <sup class="type-c" title="class">c</sup>, <a href="#Roof" title="http://xuanliu-1.github.io/npo#Roof">Roof</a>
+            <sup class="type-c" title="class">c</sup>, <a href="#SolarCell" title="http://xuanliu-1.github.io/npo#SolarCell">SolarCell</a>
+            <sup class="type-c" title="class">c</sup>, <a href="#WeatherRecord" title="http://xuanliu-1.github.io/npo#WeatherRecord">WeatherRecord</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+         <dt>is also defined as</dt>
+         <dd>named individual</dd>
+      </dl>
+   </div>
+   <div class="entity" id="Roof">
+      <h3>Roof<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://xuanliu-1.github.io/npo#Roof</p>
+      <dl class="description">
+         <dt>has super-classes</dt>
+         <dd/>
+         <dt>is in domain of</dt>
+         <dd>
+            <a href="#hasRoofType" title="http://xuanliu-1.github.io/npo#hasRoofType">has roof type</a>
+            <sup class="type-op" title="object property">op</sup>
+         </dd>
+         <dt>is disjoint with</dt>
+         <dd>
+            <a href="#Building" title="http://xuanliu-1.github.io/npo#Building">Building</a>
+            <sup class="type-c" title="class">c</sup>, <a href="http://xuanliu-1.github.io/npo#Constant"
+               target="_blank"
+               title="http://xuanliu-1.github.io/npo#Constant">Constant</a>
+            <sup class="type-c" title="class">c</sup>, <a href="#Meteorogical" title="http://xuanliu-1.github.io/npo#Meteorogical">Meteorological</a>
+            <sup class="type-c" title="class">c</sup>, <a href="#Neighbourhood" title="http://xuanliu-1.github.io/npo#Neighbourhood">Neighbourhood</a>
+            <sup class="type-c" title="class">c</sup>, <a href="#PVArray" title="http://xuanliu-1.github.io/npo#PVArray">PVArray</a>
+            <sup class="type-c" title="class">c</sup>, <a href="#PVModule" title="http://xuanliu-1.github.io/npo#PVModule">PVModule</a>
+            <sup class="type-c" title="class">c</sup>, <a href="#PVPanel" title="http://xuanliu-1.github.io/npo#PVPanel">PVPanel</a>
+            <sup class="type-c" title="class">c</sup>, <a href="http://xuanliu-1.github.io/npo#PVSystem"
+               target="_blank"
+               title="http://xuanliu-1.github.io/npo#PVSystem">p v system</a>
+            <sup class="type-c" title="class">c</sup>, <a href="#SolarCell" title="http://xuanliu-1.github.io/npo#SolarCell">SolarCell</a>
+            <sup class="type-c" title="class">c</sup>, <a href="#WeatherRecord" title="http://xuanliu-1.github.io/npo#WeatherRecord">WeatherRecord</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+         <dt>is also defined as</dt>
+         <dd>named individual</dd>
+      </dl>
+   </div>
+   <div class="entity" id="SolarCell">
+      <h3>SolarCell<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://xuanliu-1.github.io/npo#SolarCell</p>
+      <dl class="description">
+         <dt>has super-classes</dt>
+         <dd/>
+         <dt>is in domain of</dt>
+         <dd>
+            <a href="#isPartOf" title="http://xuanliu-1.github.io/npo#isPartOf">isPartOf</a>
+            <sup class="type-op" title="object property">op</sup>
+         </dd>
+         <dt>is disjoint with</dt>
+         <dd>
+            <a href="#Building" title="http://xuanliu-1.github.io/npo#Building">Building</a>
+            <sup class="type-c" title="class">c</sup>, <a href="http://xuanliu-1.github.io/npo#Constant"
+               target="_blank"
+               title="http://xuanliu-1.github.io/npo#Constant">Constant</a>
+            <sup class="type-c" title="class">c</sup>, <a href="#Meteorogical" title="http://xuanliu-1.github.io/npo#Meteorogical">Meteorological</a>
+            <sup class="type-c" title="class">c</sup>, <a href="#Neighbourhood" title="http://xuanliu-1.github.io/npo#Neighbourhood">Neighbourhood</a>
+            <sup class="type-c" title="class">c</sup>, <a href="#PVArray" title="http://xuanliu-1.github.io/npo#PVArray">PVArray</a>
+            <sup class="type-c" title="class">c</sup>, <a href="#PVModule" title="http://xuanliu-1.github.io/npo#PVModule">PVModule</a>
+            <sup class="type-c" title="class">c</sup>, <a href="#PVPanel" title="http://xuanliu-1.github.io/npo#PVPanel">PVPanel</a>
+            <sup class="type-c" title="class">c</sup>, <a href="http://xuanliu-1.github.io/npo#PVSystem"
+               target="_blank"
+               title="http://xuanliu-1.github.io/npo#PVSystem">p v system</a>
+            <sup class="type-c" title="class">c</sup>, <a href="#Roof" title="http://xuanliu-1.github.io/npo#Roof">Roof</a>
+            <sup class="type-c" title="class">c</sup>, <a href="#WeatherRecord" title="http://xuanliu-1.github.io/npo#WeatherRecord">WeatherRecord</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+         <dt>is also defined as</dt>
+         <dd>named individual</dd>
+      </dl>
+   </div>
+   <div class="entity" id="WeatherRecord">
+      <h3>WeatherRecord<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://xuanliu-1.github.io/npo#WeatherRecord</p>
+      <div class="comment">
+         <span class="markdown">WeatherRecord query from database.</span>
+      </div>
+      <dl class="description">
+         <dt>is in domain of</dt>
+         <dd>
+            <a href="#hasResult" title="http://xuanliu-1.github.io/npo#hasResult">hasResult</a>
+            <sup class="type-op" title="object property">op</sup>
+         </dd>
+         <dt>is in range of</dt>
+         <dd>
+            <a href="#hasProperty" title="http://xuanliu-1.github.io/npo#hasProperty">hasProperty</a>
+            <sup class="type-op" title="object property">op</sup>
+         </dd>
+         <dt>is disjoint with</dt>
+         <dd>
+            <a href="#Building" title="http://xuanliu-1.github.io/npo#Building">Building</a>
+            <sup class="type-c" title="class">c</sup>, <a href="http://xuanliu-1.github.io/npo#Constant"
+               target="_blank"
+               title="http://xuanliu-1.github.io/npo#Constant">Constant</a>
+            <sup class="type-c" title="class">c</sup>, <a href="#Meteorogical" title="http://xuanliu-1.github.io/npo#Meteorogical">Meteorological</a>
+            <sup class="type-c" title="class">c</sup>, <a href="#Neighbourhood" title="http://xuanliu-1.github.io/npo#Neighbourhood">Neighbourhood</a>
+            <sup class="type-c" title="class">c</sup>, <a href="#PVArray" title="http://xuanliu-1.github.io/npo#PVArray">PVArray</a>
+            <sup class="type-c" title="class">c</sup>, <a href="#PVModule" title="http://xuanliu-1.github.io/npo#PVModule">PVModule</a>
+            <sup class="type-c" title="class">c</sup>, <a href="#PVPanel" title="http://xuanliu-1.github.io/npo#PVPanel">PVPanel</a>
+            <sup class="type-c" title="class">c</sup>, <a href="http://xuanliu-1.github.io/npo#PVSystem"
+               target="_blank"
+               title="http://xuanliu-1.github.io/npo#PVSystem">p v system</a>
+            <sup class="type-c" title="class">c</sup>, <a href="#Roof" title="http://xuanliu-1.github.io/npo#Roof">Roof</a>
+            <sup class="type-c" title="class">c</sup>, <a href="#SolarCell" title="http://xuanliu-1.github.io/npo#SolarCell">SolarCell</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+</div><div xmlns:widoco="https://w3id.org/widoco/vocab#"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     id="objectproperties">
+   <h3 id="properties" class="list">Object Properties</h3>
+   <ul class="hlist">
+      <li>
+         <a href="#containsZone" title="http://xuanliu-1.github.io/npo#containsZone">containsZone</a>
+      </li>
+      <li>
+         <a href="#hasRoofType" title="http://xuanliu-1.github.io/npo#hasRoofType">
+            <span>has roof type</span>
+         </a>
+      </li>
+      <li>
+         <a href="#hasConstant" title="http://xuanliu-1.github.io/npo#hasConstant">hasConstant</a>
+      </li>
+      <li>
+         <a href="#hasProperty" title="http://xuanliu-1.github.io/npo#hasProperty">hasProperty</a>
+      </li>
+      <li>
+         <a href="#hasResult" title="http://xuanliu-1.github.io/npo#hasResult">hasResult</a>
+      </li>
+      <li>
+         <a href="#isLocatedIn" title="http://xuanliu-1.github.io/npo#isLocatedIn">isLocatedIn</a>
+      </li>
+      <li>
+         <a href="#isPartOf" title="http://xuanliu-1.github.io/npo#isPartOf">isPartOf</a>
+      </li>
+   </ul>
+   <div class="entity" id="containsZone">
+      <h3>containsZone<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://xuanliu-1.github.io/npo#containsZone</p>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#Neighbourhood" title="http://xuanliu-1.github.io/npo#Neighbourhood">Neighbourhood</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="#Building" title="http://xuanliu-1.github.io/npo#Building">Building</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="hasRoofType">
+      <h3>has roof type<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://xuanliu-1.github.io/npo#hasRoofType</p>
+      <div class="description">
+         <dl>
+            <dt>has super-properties</dt>
+            <dd>
+               <a href="http://www.w3.org/2002/07/owl#topObjectProperty"
+                  target="_blank"
+                  title="http://www.w3.org/2002/07/owl#topObjectProperty">top object property</a>
+            </dd>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#Roof" title="http://xuanliu-1.github.io/npo#Roof">Roof</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="hasConstant">
+      <h3>hasConstant<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://xuanliu-1.github.io/npo#hasConstant</p>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#PVModule" title="http://xuanliu-1.github.io/npo#PVModule">PVModule</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="http://xuanliu-1.github.io/npo#Constant"
+                  target="_blank"
+                  title="http://xuanliu-1.github.io/npo#Constant">Constant</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="hasProperty">
+      <h3>hasProperty<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://xuanliu-1.github.io/npo#hasProperty</p>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#Neighbourhood" title="http://xuanliu-1.github.io/npo#Neighbourhood">Neighbourhood</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="#Meteorogical" title="http://xuanliu-1.github.io/npo#Meteorogical">Meteorological</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dd>
+               <a href="#WeatherRecord" title="http://xuanliu-1.github.io/npo#WeatherRecord">WeatherRecord</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="hasResult">
+      <h3>hasResult<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://xuanliu-1.github.io/npo#hasResult</p>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#Meteorogical" title="http://xuanliu-1.github.io/npo#Meteorogical">Meteorological</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dd>
+               <a href="#WeatherRecord" title="http://xuanliu-1.github.io/npo#WeatherRecord">WeatherRecord</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="isLocatedIn">
+      <h3>isLocatedIn<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://xuanliu-1.github.io/npo#isLocatedIn</p>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#Building" title="http://xuanliu-1.github.io/npo#Building">Building</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="#Neighbourhood" title="http://xuanliu-1.github.io/npo#Neighbourhood">Neighbourhood</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="isPartOf">
+      <h3>isPartOf<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://xuanliu-1.github.io/npo#isPartOf</p>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#PVArray" title="http://xuanliu-1.github.io/npo#PVArray">PVArray</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dd>
+               <a href="#PVModule" title="http://xuanliu-1.github.io/npo#PVModule">PVModule</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dd>
+               <a href="#PVPanel" title="http://xuanliu-1.github.io/npo#PVPanel">PVPanel</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dd>
+               <a href="#SolarCell" title="http://xuanliu-1.github.io/npo#SolarCell">SolarCell</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="#PVArray" title="http://xuanliu-1.github.io/npo#PVArray">PVArray</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dd>
+               <a href="#PVModule" title="http://xuanliu-1.github.io/npo#PVModule">PVModule</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dd>
+               <a href="#PVPanel" title="http://xuanliu-1.github.io/npo#PVPanel">PVPanel</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dd>
+               <a href="http://xuanliu-1.github.io/npo#PVSystem"
+                  target="_blank"
+                  title="http://xuanliu-1.github.io/npo#PVSystem">p v system</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+</div><div xmlns:widoco="https://w3id.org/widoco/vocab#"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     id="dataproperties">
+   <h3 id="dataproperties-headline" class="list">Data Properties</h3>
+   <ul class="hlist">
+      <li>
+         <a href="#hasAzimuth" title="http://xuanliu-1.github.io/npo#hasAzimuth">
+            <span>has azimuth</span>
+         </a>
+      </li>
+      <li>
+         <a href="#hasBAPVAlbedoFactor"
+            title="http://xuanliu-1.github.io/npo#hasBAPVAlbedoFactor">
+            <span>has b a p v albedo factor</span>
+         </a>
+      </li>
+      <li>
+         <a href="#hasBoltzmannConstant"
+            title="http://xuanliu-1.github.io/npo#hasBoltzmannConstant">
+            <span>has boltzmann constant</span>
+         </a>
+      </li>
+      <li>
+         <a href="#hasCableLossFactor"
+            title="http://xuanliu-1.github.io/npo#hasCableLossFactor">
+            <span>has cable loss factor</span>
+         </a>
+      </li>
+      <li>
+         <a href="#hasConfigurationMode"
+            title="http://xuanliu-1.github.io/npo#hasConfigurationMode">
+            <span>has configuration mode</span>
+         </a>
+      </li>
+      <li>
+         <a href="#hasConstantA" title="http://xuanliu-1.github.io/npo#hasConstantA">
+            <span>has constant a</span>
+         </a>
+      </li>
+      <li>
+         <a href="#hasConstantB" title="http://xuanliu-1.github.io/npo#hasConstantB">
+            <span>has constant b</span>
+         </a>
+      </li>
+      <li>
+         <a href="#hasDiodeIdealityFactorForMono-Si"
+            title="http://xuanliu-1.github.io/npo#hasDiodeIdealityFactorForMono-Si">
+            <span>has diode ideality factor for mono si</span>
+         </a>
+      </li>
+      <li>
+         <a href="#hasDiodeIdealityFactorForPoly-Si"
+            title="http://xuanliu-1.github.io/npo#hasDiodeIdealityFactorForPoly-Si">
+            <span>has diode ideality factor for poly si</span>
+         </a>
+      </li>
+      <li>
+         <a href="#hasDiodeIdealityFactorForThin-film"
+            title="http://xuanliu-1.github.io/npo#hasDiodeIdealityFactorForThin-film">
+            <span>has diode ideality factor for thin film</span>
+         </a>
+      </li>
+      <li>
+         <a href="#hasElementaryCharge"
+            title="http://xuanliu-1.github.io/npo#hasElementaryCharge">
+            <span>has elementary charge</span>
+         </a>
+      </li>
+      <li>
+         <a href="#hasFSPVAlbedoFactor"
+            title="http://xuanliu-1.github.io/npo#hasFSPVAlbedoFactor">
+            <span>has f s p v albedo factor</span>
+         </a>
+      </li>
+      <li>
+         <a href="#hasFillFactor" title="http://xuanliu-1.github.io/npo#hasFillFactor">
+            <span>has fill factor</span>
+         </a>
+      </li>
+      <li>
+         <a href="#hasInverterEfficiency"
+            title="http://xuanliu-1.github.io/npo#hasInverterEfficiency">
+            <span>has inverter efficiency</span>
+         </a>
+      </li>
+      <li>
+         <a href="#hasMismatchLoss" title="http://xuanliu-1.github.io/npo#hasMismatchLoss">
+            <span>has mismatch loss</span>
+         </a>
+      </li>
+      <li>
+         <a href="#hasModuleLength" title="http://xuanliu-1.github.io/npo#hasModuleLength">
+            <span>has module length</span>
+         </a>
+      </li>
+      <li>
+         <a href="#hasModuleTechnology"
+            title="http://xuanliu-1.github.io/npo#hasModuleTechnology">
+            <span>has module technology</span>
+         </a>
+      </li>
+      <li>
+         <a href="#hasModuleTemperature"
+            title="http://xuanliu-1.github.io/npo#hasModuleTemperature">
+            <span>has module temperature</span>
+         </a>
+      </li>
+      <li>
+         <a href="#hasModuleWidth" title="http://xuanliu-1.github.io/npo#hasModuleWidth">
+            <span>has module width</span>
+         </a>
+      </li>
+      <li>
+         <a href="#hasOrientation" title="http://xuanliu-1.github.io/npo#hasOrientation">
+            <span>has orientation</span>
+         </a>
+      </li>
+      <li>
+         <a href="#hasReflectanceLossFactor"
+            title="http://xuanliu-1.github.io/npo#hasReflectanceLossFactor">
+            <span>has reflectance loss factor</span>
+         </a>
+      </li>
+      <li>
+         <a href="#hasRowSpace" title="http://xuanliu-1.github.io/npo#hasRowSpace">
+            <span>has row space</span>
+         </a>
+      </li>
+      <li>
+         <a href="#hasShadedArea" title="http://xuanliu-1.github.io/npo#hasShadedArea">
+            <span>has shaded area</span>
+         </a>
+      </li>
+      <li>
+         <a href="#hasShadedLength" title="http://xuanliu-1.github.io/npo#hasShadedLength">
+            <span>has shaded length</span>
+         </a>
+      </li>
+      <li>
+         <a href="#hasShadingLossFactorForBAPV"
+            title="http://xuanliu-1.github.io/npo#hasShadingLossFactorForBAPV">
+            <span>has shading loss factor for b a p v</span>
+         </a>
+      </li>
+      <li>
+         <a href="#hasShadingLossFactorForFSPV"
+            title="http://xuanliu-1.github.io/npo#hasShadingLossFactorForFSPV">
+            <span>has shading loss factor for f s p v</span>
+         </a>
+      </li>
+      <li>
+         <a href="#hasSoilingLossFactor"
+            title="http://xuanliu-1.github.io/npo#hasSoilingLossFactor">
+            <span>has soiling loss factor</span>
+         </a>
+      </li>
+      <li>
+         <a href="#hasSurfaceArea" title="http://xuanliu-1.github.io/npo#hasSurfaceArea">
+            <span>has surface area</span>
+         </a>
+      </li>
+      <li>
+         <a href="#hasTilt" title="http://xuanliu-1.github.io/npo#hasTilt">
+            <span>has tilt</span>
+         </a>
+      </li>
+   </ul>
+   <div class="entity" id="hasAzimuth">
+      <h3>has azimuth<sup class="type-dp" title="data property">dp</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://xuanliu-1.github.io/npo#hasAzimuth</p>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#PVModule" title="http://xuanliu-1.github.io/npo#PVModule">PVModule</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="hasBAPVAlbedoFactor">
+      <h3>has b a p v albedo factor<sup class="type-dp" title="data property">dp</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://xuanliu-1.github.io/npo#hasBAPVAlbedoFactor</p>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="http://xuanliu-1.github.io/npo#Constant"
+                  target="_blank"
+                  title="http://xuanliu-1.github.io/npo#Constant">Constant</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="hasBoltzmannConstant">
+      <h3>has boltzmann constant<sup class="type-dp" title="data property">dp</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://xuanliu-1.github.io/npo#hasBoltzmannConstant</p>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="http://xuanliu-1.github.io/npo#Constant"
+                  target="_blank"
+                  title="http://xuanliu-1.github.io/npo#Constant">Constant</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="hasCableLossFactor">
+      <h3>has cable loss factor<sup class="type-dp" title="data property">dp</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://xuanliu-1.github.io/npo#hasCableLossFactor</p>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="http://xuanliu-1.github.io/npo#Constant"
+                  target="_blank"
+                  title="http://xuanliu-1.github.io/npo#Constant">Constant</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="hasConfigurationMode">
+      <h3>has configuration mode<sup class="type-dp" title="data property">dp</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://xuanliu-1.github.io/npo#hasConfigurationMode</p>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#PVModule" title="http://xuanliu-1.github.io/npo#PVModule">PVModule</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="hasConstantA">
+      <h3>has constant a<sup class="type-dp" title="data property">dp</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://xuanliu-1.github.io/npo#hasConstantA</p>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="http://xuanliu-1.github.io/npo#Constant"
+                  target="_blank"
+                  title="http://xuanliu-1.github.io/npo#Constant">Constant</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="hasConstantB">
+      <h3>has constant b<sup class="type-dp" title="data property">dp</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://xuanliu-1.github.io/npo#hasConstantB</p>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="http://xuanliu-1.github.io/npo#Constant"
+                  target="_blank"
+                  title="http://xuanliu-1.github.io/npo#Constant">Constant</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="hasDiodeIdealityFactorForMono-Si">
+      <h3>has diode ideality factor for mono si<sup class="type-dp" title="data property">dp</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://xuanliu-1.github.io/npo#hasDiodeIdealityFactorForMono-Si</p>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="http://xuanliu-1.github.io/npo#Constant"
+                  target="_blank"
+                  title="http://xuanliu-1.github.io/npo#Constant">Constant</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="hasDiodeIdealityFactorForPoly-Si">
+      <h3>has diode ideality factor for poly si<sup class="type-dp" title="data property">dp</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://xuanliu-1.github.io/npo#hasDiodeIdealityFactorForPoly-Si</p>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="http://xuanliu-1.github.io/npo#Constant"
+                  target="_blank"
+                  title="http://xuanliu-1.github.io/npo#Constant">Constant</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="hasDiodeIdealityFactorForThin-film">
+      <h3>has diode ideality factor for thin film<sup class="type-dp" title="data property">dp</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://xuanliu-1.github.io/npo#hasDiodeIdealityFactorForThin-film</p>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="http://xuanliu-1.github.io/npo#Constant"
+                  target="_blank"
+                  title="http://xuanliu-1.github.io/npo#Constant">Constant</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="hasElementaryCharge">
+      <h3>has elementary charge<sup class="type-dp" title="data property">dp</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://xuanliu-1.github.io/npo#hasElementaryCharge</p>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="http://xuanliu-1.github.io/npo#Constant"
+                  target="_blank"
+                  title="http://xuanliu-1.github.io/npo#Constant">Constant</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="hasFSPVAlbedoFactor">
+      <h3>has f s p v albedo factor<sup class="type-dp" title="data property">dp</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://xuanliu-1.github.io/npo#hasFSPVAlbedoFactor</p>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="http://xuanliu-1.github.io/npo#Constant"
+                  target="_blank"
+                  title="http://xuanliu-1.github.io/npo#Constant">Constant</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="hasFillFactor">
+      <h3>has fill factor<sup class="type-dp" title="data property">dp</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://xuanliu-1.github.io/npo#hasFillFactor</p>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="http://xuanliu-1.github.io/npo#Constant"
+                  target="_blank"
+                  title="http://xuanliu-1.github.io/npo#Constant">Constant</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="hasInverterEfficiency">
+      <h3>has inverter efficiency<sup class="type-dp" title="data property">dp</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://xuanliu-1.github.io/npo#hasInverterEfficiency</p>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="http://xuanliu-1.github.io/npo#Constant"
+                  target="_blank"
+                  title="http://xuanliu-1.github.io/npo#Constant">Constant</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="hasMismatchLoss">
+      <h3>has mismatch loss<sup class="type-dp" title="data property">dp</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://xuanliu-1.github.io/npo#hasMismatchLoss</p>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="http://xuanliu-1.github.io/npo#Constant"
+                  target="_blank"
+                  title="http://xuanliu-1.github.io/npo#Constant">Constant</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="hasModuleLength">
+      <h3>has module length<sup class="type-dp" title="data property">dp</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://xuanliu-1.github.io/npo#hasModuleLength</p>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="http://xuanliu-1.github.io/npo#Constant"
+                  target="_blank"
+                  title="http://xuanliu-1.github.io/npo#Constant">Constant</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="hasModuleTechnology">
+      <h3>has module technology<sup class="type-dp" title="data property">dp</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://xuanliu-1.github.io/npo#hasModuleTechnology</p>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#PVModule" title="http://xuanliu-1.github.io/npo#PVModule">PVModule</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="hasModuleTemperature">
+      <h3>has module temperature<sup class="type-dp" title="data property">dp</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://xuanliu-1.github.io/npo#hasModuleTemperature</p>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#PVModule" title="http://xuanliu-1.github.io/npo#PVModule">PVModule</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="hasModuleWidth">
+      <h3>has module width<sup class="type-dp" title="data property">dp</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://xuanliu-1.github.io/npo#hasModuleWidth</p>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="http://xuanliu-1.github.io/npo#Constant"
+                  target="_blank"
+                  title="http://xuanliu-1.github.io/npo#Constant">Constant</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="hasOrientation">
+      <h3>has orientation<sup class="type-dp" title="data property">dp</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://xuanliu-1.github.io/npo#hasOrientation</p>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#PVModule" title="http://xuanliu-1.github.io/npo#PVModule">PVModule</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="hasReflectanceLossFactor">
+      <h3>has reflectance loss factor<sup class="type-dp" title="data property">dp</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://xuanliu-1.github.io/npo#hasReflectanceLossFactor</p>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="http://xuanliu-1.github.io/npo#Constant"
+                  target="_blank"
+                  title="http://xuanliu-1.github.io/npo#Constant">Constant</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="hasRowSpace">
+      <h3>has row space<sup class="type-dp" title="data property">dp</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://xuanliu-1.github.io/npo#hasRowSpace</p>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#PVModule" title="http://xuanliu-1.github.io/npo#PVModule">PVModule</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="hasShadedArea">
+      <h3>has shaded area<sup class="type-dp" title="data property">dp</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://xuanliu-1.github.io/npo#hasShadedArea</p>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#PVModule" title="http://xuanliu-1.github.io/npo#PVModule">PVModule</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="hasShadedLength">
+      <h3>has shaded length<sup class="type-dp" title="data property">dp</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://xuanliu-1.github.io/npo#hasShadedLength</p>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#PVModule" title="http://xuanliu-1.github.io/npo#PVModule">PVModule</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="hasShadingLossFactorForBAPV">
+      <h3>has shading loss factor for b a p v<sup class="type-dp" title="data property">dp</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://xuanliu-1.github.io/npo#hasShadingLossFactorForBAPV</p>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="http://xuanliu-1.github.io/npo#Constant"
+                  target="_blank"
+                  title="http://xuanliu-1.github.io/npo#Constant">Constant</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="hasShadingLossFactorForFSPV">
+      <h3>has shading loss factor for f s p v<sup class="type-dp" title="data property">dp</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://xuanliu-1.github.io/npo#hasShadingLossFactorForFSPV</p>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="http://xuanliu-1.github.io/npo#Constant"
+                  target="_blank"
+                  title="http://xuanliu-1.github.io/npo#Constant">Constant</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="hasSoilingLossFactor">
+      <h3>has soiling loss factor<sup class="type-dp" title="data property">dp</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://xuanliu-1.github.io/npo#hasSoilingLossFactor</p>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="http://xuanliu-1.github.io/npo#Constant"
+                  target="_blank"
+                  title="http://xuanliu-1.github.io/npo#Constant">Constant</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="hasSurfaceArea">
+      <h3>has surface area<sup class="type-dp" title="data property">dp</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://xuanliu-1.github.io/npo#hasSurfaceArea</p>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#PVModule" title="http://xuanliu-1.github.io/npo#PVModule">PVModule</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="hasTilt">
+      <h3>has tilt<sup class="type-dp" title="data property">dp</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://xuanliu-1.github.io/npo#hasTilt</p>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#PVModule" title="http://xuanliu-1.github.io/npo#PVModule">PVModule</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+</div><div xmlns:widoco="https://w3id.org/widoco/vocab#"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     id="annotationproperties">
+   <h3 id="annotationproperties" class="list">Annotation Properties</h3>
+   <ul class="hlist">
+      <li>
+         <a href="#http://purl.org/dc/terms/creator" title="http://purl.org/dc/terms/creator">
+            <span>creator</span>
+         </a>
+      </li>
+      <li>
+         <a href="#http://purl.org/dc/terms/description" title="http://purl.org/dc/terms/description">
+            <span>description</span>
+         </a>
+      </li>
+      <li>
+         <a href="#preferredNameSpacePrefix"
+            title="http://xuanliu-1.github.io/npo#preferredNameSpacePrefix">
+            <span>preferred name space prefix</span>
+         </a>
+      </li>
+      <li>
+         <a href="#http://purl.org/dc/terms/title" title="http://purl.org/dc/terms/title">
+            <span>title</span>
+         </a>
+      </li>
+   </ul>
+   <div class="entity" id="http://purl.org/dc/terms/creator">
+      <h3>creator<sup class="type-ap" title="annotation property">ap</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#annotationproperties">Annotation Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://purl.org/dc/terms/creator</p>
+   </div>
+   <div class="entity" id="http://purl.org/dc/terms/description">
+      <h3>description<sup class="type-ap" title="annotation property">ap</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#annotationproperties">Annotation Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://purl.org/dc/terms/description</p>
+   </div>
+   <div class="entity" id="preferredNameSpacePrefix">
+      <h3>preferred name space prefix<sup class="type-ap" title="annotation property">ap</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#annotationproperties">Annotation Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://xuanliu-1.github.io/npo#preferredNameSpacePrefix</p>
+   </div>
+   <div class="entity" id="http://purl.org/dc/terms/title">
+      <h3>title<sup class="type-ap" title="annotation property">ap</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#annotationproperties">Annotation Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://purl.org/dc/terms/title</p>
+   </div>
+</div><div xmlns:widoco="https://w3id.org/widoco/vocab#"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     id="namedindividuals">
+   <h3 id="namedindividuals" class="list">Named Individuals</h3>
+   <ul class="hlist">
+      <li>
+         <a href="#Constant" title="http://xuanliu-1.github.io/npo#Constant">
+            <span>Constant</span>
+         </a>
+      </li>
+      <li>
+         <a href="#PVModule" title="http://xuanliu-1.github.io/npo#PVModule">
+            <span>PVModule</span>
+         </a>
+      </li>
+   </ul>
+   <div class="entity" id="Constant">
+      <h3>Constant<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://xuanliu-1.github.io/npo#Constant</p>
+      <dl class="description">
+         <dt>is disjoint with</dt>
+         <dd>
+            <a href="#Building" title="http://xuanliu-1.github.io/npo#Building">Building</a>, <a href="#Meteorogical" title="http://xuanliu-1.github.io/npo#Meteorogical">Meteorological</a>, <a href="#Neighbourhood" title="http://xuanliu-1.github.io/npo#Neighbourhood">Neighbourhood</a>, <a href="#PVArray" title="http://xuanliu-1.github.io/npo#PVArray">PVArray</a>, <a href="#PVModule" title="http://xuanliu-1.github.io/npo#PVModule">PVModule</a>, <a href="#PVPanel" title="http://xuanliu-1.github.io/npo#PVPanel">PVPanel</a>, <a href="http://xuanliu-1.github.io/npo#PVSystem"
+               target="_blank"
+               title="http://xuanliu-1.github.io/npo#PVSystem">p v system</a>, <a href="#Roof" title="http://xuanliu-1.github.io/npo#Roof">Roof</a>, <a href="#SolarCell" title="http://xuanliu-1.github.io/npo#SolarCell">SolarCell</a>, <a href="#WeatherRecord" title="http://xuanliu-1.github.io/npo#WeatherRecord">WeatherRecord</a>
+         </dd>
+         <dt>has facts</dt>
+         <dd>
+            <a href="#hasBAPVAlbedoFactor"
+               title="http://xuanliu-1.github.io/npo#hasBAPVAlbedoFactor">has b a p v albedo factor</a>
+            <sup class="type-dp" title="data property">dp</sup> 
+            <span class="literal">"0.15"^^<a href="http://www.w3.org/2001/XMLSchema#float"
+                  target="_blank"
+                  title="http://www.w3.org/2001/XMLSchema#float">float</a>
+            </span>
+         </dd>
+         <dd>
+            <a href="#hasBoltzmannConstant"
+               title="http://xuanliu-1.github.io/npo#hasBoltzmannConstant">has boltzmann constant</a>
+            <sup class="type-dp" title="data property">dp</sup> 
+            <span class="literal">"1.38"^^<a href="http://www.w3.org/2001/XMLSchema#float"
+                  target="_blank"
+                  title="http://www.w3.org/2001/XMLSchema#float">float</a>
+            </span>
+         </dd>
+         <dd>
+            <a href="#hasCableLossFactor"
+               title="http://xuanliu-1.github.io/npo#hasCableLossFactor">has cable loss factor</a>
+            <sup class="type-dp" title="data property">dp</sup> 
+            <span class="literal">"0.005"^^<a href="http://www.w3.org/2001/XMLSchema#float"
+                  target="_blank"
+                  title="http://www.w3.org/2001/XMLSchema#float">float</a>
+            </span>
+         </dd>
+         <dd>
+            <a href="#hasConstantA" title="http://xuanliu-1.github.io/npo#hasConstantA">has constant a</a>
+            <sup class="type-dp" title="data property">dp</sup> 
+            <span class="literal">"-0.01"^^<a href="http://www.w3.org/2001/XMLSchema#float"
+                  target="_blank"
+                  title="http://www.w3.org/2001/XMLSchema#float">float</a>
+            </span>
+         </dd>
+         <dd>
+            <a href="#hasConstantB" title="http://xuanliu-1.github.io/npo#hasConstantB">has constant b</a>
+            <sup class="type-dp" title="data property">dp</sup> 
+            <span class="literal">"-0.02"^^<a href="http://www.w3.org/2001/XMLSchema#float"
+                  target="_blank"
+                  title="http://www.w3.org/2001/XMLSchema#float">float</a>
+            </span>
+         </dd>
+         <dd>
+            <a href="#hasDiodeIdealityFactorForMono-Si"
+               title="http://xuanliu-1.github.io/npo#hasDiodeIdealityFactorForMono-Si">has diode ideality factor for mono si</a>
+            <sup class="type-dp" title="data property">dp</sup> 
+            <span class="literal">"1.0"^^<a href="http://www.w3.org/2001/XMLSchema#float"
+                  target="_blank"
+                  title="http://www.w3.org/2001/XMLSchema#float">float</a>
+            </span>
+         </dd>
+         <dd>
+            <a href="#hasDiodeIdealityFactorForPoly-Si"
+               title="http://xuanliu-1.github.io/npo#hasDiodeIdealityFactorForPoly-Si">has diode ideality factor for poly si</a>
+            <sup class="type-dp" title="data property">dp</sup> 
+            <span class="literal">"1.5"^^<a href="http://www.w3.org/2001/XMLSchema#float"
+                  target="_blank"
+                  title="http://www.w3.org/2001/XMLSchema#float">float</a>
+            </span>
+         </dd>
+         <dd>
+            <a href="#hasDiodeIdealityFactorForThin-film"
+               title="http://xuanliu-1.github.io/npo#hasDiodeIdealityFactorForThin-film">has diode ideality factor for thin film</a>
+            <sup class="type-dp" title="data property">dp</sup> 
+            <span class="literal">"2.0"^^<a href="http://www.w3.org/2001/XMLSchema#float"
+                  target="_blank"
+                  title="http://www.w3.org/2001/XMLSchema#float">float</a>
+            </span>
+         </dd>
+         <dd>
+            <a href="#hasElementaryCharge"
+               title="http://xuanliu-1.github.io/npo#hasElementaryCharge">has elementary charge</a>
+            <sup class="type-dp" title="data property">dp</sup> 
+            <span class="literal">"1.602"^^<a href="http://www.w3.org/2001/XMLSchema#float"
+                  target="_blank"
+                  title="http://www.w3.org/2001/XMLSchema#float">float</a>
+            </span>
+         </dd>
+         <dd>
+            <a href="#hasFSPVAlbedoFactor"
+               title="http://xuanliu-1.github.io/npo#hasFSPVAlbedoFactor">has f s p v albedo factor</a>
+            <sup class="type-dp" title="data property">dp</sup> 
+            <span class="literal">"0.24"^^<a href="http://www.w3.org/2001/XMLSchema#float"
+                  target="_blank"
+                  title="http://www.w3.org/2001/XMLSchema#float">float</a>
+            </span>
+         </dd>
+         <dd>
+            <a href="#hasFillFactor" title="http://xuanliu-1.github.io/npo#hasFillFactor">has fill factor</a>
+            <sup class="type-dp" title="data property">dp</sup> 
+            <span class="literal">"1.0"^^<a href="http://www.w3.org/2001/XMLSchema#float"
+                  target="_blank"
+                  title="http://www.w3.org/2001/XMLSchema#float">float</a>
+            </span>
+         </dd>
+         <dd>
+            <a href="#hasMismatchLoss" title="http://xuanliu-1.github.io/npo#hasMismatchLoss">has mismatch loss</a>
+            <sup class="type-dp" title="data property">dp</sup> 
+            <span class="literal">"0.015"^^<a href="http://www.w3.org/2001/XMLSchema#float"
+                  target="_blank"
+                  title="http://www.w3.org/2001/XMLSchema#float">float</a>
+            </span>
+         </dd>
+         <dd>
+            <a href="#hasReflectanceLossFactor"
+               title="http://xuanliu-1.github.io/npo#hasReflectanceLossFactor">has reflectance loss factor</a>
+            <sup class="type-dp" title="data property">dp</sup> 
+            <span class="literal">"0.04"^^<a href="http://www.w3.org/2001/XMLSchema#float"
+                  target="_blank"
+                  title="http://www.w3.org/2001/XMLSchema#float">float</a>
+            </span>
+         </dd>
+         <dd>
+            <a href="#hasShadingLossFactorForBAPV"
+               title="http://xuanliu-1.github.io/npo#hasShadingLossFactorForBAPV">has shading loss factor for b a p v</a>
+            <sup class="type-dp" title="data property">dp</sup> 
+            <span class="literal">"0.0688"^^<a href="http://www.w3.org/2001/XMLSchema#float"
+                  target="_blank"
+                  title="http://www.w3.org/2001/XMLSchema#float">float</a>
+            </span>
+         </dd>
+         <dd>
+            <a href="#hasShadingLossFactorForFSPV"
+               title="http://xuanliu-1.github.io/npo#hasShadingLossFactorForFSPV">has shading loss factor for f s p v</a>
+            <sup class="type-dp" title="data property">dp</sup> 
+            <span class="literal">"0.0"^^<a href="http://www.w3.org/2001/XMLSchema#float"
+                  target="_blank"
+                  title="http://www.w3.org/2001/XMLSchema#float">float</a>
+            </span>
+         </dd>
+         <dd>
+            <a href="#hasSoilingLossFactor"
+               title="http://xuanliu-1.github.io/npo#hasSoilingLossFactor">has soiling loss factor</a>
+            <sup class="type-dp" title="data property">dp</sup> 
+            <span class="literal">"8.3E-4"^^<a href="http://www.w3.org/2001/XMLSchema#float"
+                  target="_blank"
+                  title="http://www.w3.org/2001/XMLSchema#float">float</a>
+            </span>
+         </dd>
+         <dt>is also defined as</dt>
+         <dd>class</dd>
+      </dl>
+   </div>
+   <div class="entity" id="PVModule">
+      <h3>PVModule<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://xuanliu-1.github.io/npo#PVModule</p>
+      <dl class="description">
+         <dt>is disjoint with</dt>
+         <dd>
+            <a href="#Building" title="http://xuanliu-1.github.io/npo#Building">Building</a>, <a href="#Constant" title="http://xuanliu-1.github.io/npo#Constant">Constant</a>, <a href="#Meteorogical" title="http://xuanliu-1.github.io/npo#Meteorogical">Meteorological</a>, <a href="#Neighbourhood" title="http://xuanliu-1.github.io/npo#Neighbourhood">Neighbourhood</a>, <a href="#PVArray" title="http://xuanliu-1.github.io/npo#PVArray">PVArray</a>, <a href="#PVPanel" title="http://xuanliu-1.github.io/npo#PVPanel">PVPanel</a>, <a href="http://xuanliu-1.github.io/npo#PVSystem"
+               target="_blank"
+               title="http://xuanliu-1.github.io/npo#PVSystem">p v system</a>, <a href="#Roof" title="http://xuanliu-1.github.io/npo#Roof">Roof</a>, <a href="#SolarCell" title="http://xuanliu-1.github.io/npo#SolarCell">SolarCell</a>, <a href="#WeatherRecord" title="http://xuanliu-1.github.io/npo#WeatherRecord">WeatherRecord</a>
+         </dd>
+         <dt>has facts</dt>
+         <dd>
+            <a href="#hasAzimuth" title="http://xuanliu-1.github.io/npo#hasAzimuth">has azimuth</a>
+            <sup class="type-dp" title="data property">dp</sup> 
+            <span class="literal">"180.0"^^<a href="http://www.w3.org/2001/XMLSchema#float"
+                  target="_blank"
+                  title="http://www.w3.org/2001/XMLSchema#float">float</a>
+            </span>
+         </dd>
+         <dd>
+            <a href="#hasAzimuth" title="http://xuanliu-1.github.io/npo#hasAzimuth">has azimuth</a>
+            <sup class="type-dp" title="data property">dp</sup> 
+            <span class="literal">"270.0"^^<a href="http://www.w3.org/2001/XMLSchema#float"
+                  target="_blank"
+                  title="http://www.w3.org/2001/XMLSchema#float">float</a>
+            </span>
+         </dd>
+         <dd>
+            <a href="#hasAzimuth" title="http://xuanliu-1.github.io/npo#hasAzimuth">has azimuth</a>
+            <sup class="type-dp" title="data property">dp</sup> 
+            <span class="literal">"90.0"^^<a href="http://www.w3.org/2001/XMLSchema#float"
+                  target="_blank"
+                  title="http://www.w3.org/2001/XMLSchema#float">float</a>
+            </span>
+         </dd>
+         <dd>
+            <a href="#hasConfigurationMode"
+               title="http://xuanliu-1.github.io/npo#hasConfigurationMode">has configuration mode</a>
+            <sup class="type-dp" title="data property">dp</sup> 
+            <span class="literal">"EW"</span>
+         </dd>
+         <dd>
+            <a href="#hasConfigurationMode"
+               title="http://xuanliu-1.github.io/npo#hasConfigurationMode">has configuration mode</a>
+            <sup class="type-dp" title="data property">dp</sup> 
+            <span class="literal">"east"</span>
+         </dd>
+         <dd>
+            <a href="#hasConfigurationMode"
+               title="http://xuanliu-1.github.io/npo#hasConfigurationMode">has configuration mode</a>
+            <sup class="type-dp" title="data property">dp</sup> 
+            <span class="literal">"south"</span>
+         </dd>
+         <dd>
+            <a href="#hasConfigurationMode"
+               title="http://xuanliu-1.github.io/npo#hasConfigurationMode">has configuration mode</a>
+            <sup class="type-dp" title="data property">dp</sup> 
+            <span class="literal">"west"</span>
+         </dd>
+         <dd>
+            <a href="#hasModuleLength" title="http://xuanliu-1.github.io/npo#hasModuleLength">has module length</a>
+            <sup class="type-dp" title="data property">dp</sup> 
+            <span class="literal">"3.0"^^<a href="http://www.w3.org/2001/XMLSchema#float"
+                  target="_blank"
+                  title="http://www.w3.org/2001/XMLSchema#float">float</a>
+            </span>
+         </dd>
+         <dd>
+            <a href="#hasModuleTechnology"
+               title="http://xuanliu-1.github.io/npo#hasModuleTechnology">has module technology</a>
+            <sup class="type-dp" title="data property">dp</sup> 
+            <span class="literal">"c-Si"</span>
+         </dd>
+         <dd>
+            <a href="#hasModuleTechnology"
+               title="http://xuanliu-1.github.io/npo#hasModuleTechnology">has module technology</a>
+            <sup class="type-dp" title="data property">dp</sup> 
+            <span class="literal">"poly-Si"</span>
+         </dd>
+         <dd>
+            <a href="#hasModuleTechnology"
+               title="http://xuanliu-1.github.io/npo#hasModuleTechnology">has module technology</a>
+            <sup class="type-dp" title="data property">dp</sup> 
+            <span class="literal">"thin-film"</span>
+         </dd>
+         <dd>
+            <a href="#hasModuleTemperature"
+               title="http://xuanliu-1.github.io/npo#hasModuleTemperature">has module temperature</a>
+            <sup class="type-dp" title="data property">dp</sup> 
+            <span class="literal">"23.0"^^<a href="http://www.w3.org/2001/XMLSchema#float"
+                  target="_blank"
+                  title="http://www.w3.org/2001/XMLSchema#float">float</a>
+            </span>
+         </dd>
+         <dd>
+            <a href="#hasModuleWidth" title="http://xuanliu-1.github.io/npo#hasModuleWidth">has module width</a>
+            <sup class="type-dp" title="data property">dp</sup> 
+            <span class="literal">"1.0"^^<a href="http://www.w3.org/2001/XMLSchema#float"
+                  target="_blank"
+                  title="http://www.w3.org/2001/XMLSchema#float">float</a>
+            </span>
+         </dd>
+         <dd>
+            <a href="http://xuanliu-1.github.io/npo#hasNumberOfSeriesConnectedCell"
+               target="_blank"
+               title="http://xuanliu-1.github.io/npo#hasNumberOfSeriesConnectedCell">has number of series connected cell</a>
+            <sup class="type-dp" title="data property">dp</sup> 
+            <span class="literal">"30.0"^^<a href="http://www.w3.org/2001/XMLSchema#float"
+                  target="_blank"
+                  title="http://www.w3.org/2001/XMLSchema#float">float</a>
+            </span>
+         </dd>
+         <dd>
+            <a href="#hasOrientation" title="http://xuanliu-1.github.io/npo#hasOrientation">has orientation</a>
+            <sup class="type-dp" title="data property">dp</sup> 
+            <span class="literal">"landscape"</span>
+         </dd>
+         <dd>
+            <a href="#hasOrientation" title="http://xuanliu-1.github.io/npo#hasOrientation">has orientation</a>
+            <sup class="type-dp" title="data property">dp</sup> 
+            <span class="literal">"portrait"</span>
+         </dd>
+         <dd>
+            <a href="#hasRowSpace" title="http://xuanliu-1.github.io/npo#hasRowSpace">has row space</a>
+            <sup class="type-dp" title="data property">dp</sup> 
+            <span class="literal">"2.0"^^<a href="http://www.w3.org/2001/XMLSchema#float"
+                  target="_blank"
+                  title="http://www.w3.org/2001/XMLSchema#float">float</a>
+            </span>
+         </dd>
+         <dd>
+            <a href="#hasShadedArea" title="http://xuanliu-1.github.io/npo#hasShadedArea">has shaded area</a>
+            <sup class="type-dp" title="data property">dp</sup> 
+            <span class="literal">"5.0"^^<a href="http://www.w3.org/2001/XMLSchema#float"
+                  target="_blank"
+                  title="http://www.w3.org/2001/XMLSchema#float">float</a>
+            </span>
+         </dd>
+         <dd>
+            <a href="#hasShadedLength" title="http://xuanliu-1.github.io/npo#hasShadedLength">has shaded length</a>
+            <sup class="type-dp" title="data property">dp</sup> 
+            <span class="literal">"0.5"^^<a href="http://www.w3.org/2001/XMLSchema#float"
+                  target="_blank"
+                  title="http://www.w3.org/2001/XMLSchema#float">float</a>
+            </span>
+         </dd>
+         <dd>
+            <a href="http://xuanliu-1.github.io/npo#hasStandardModuleTemperature"
+               target="_blank"
+               title="http://xuanliu-1.github.io/npo#hasStandardModuleTemperature">has standard module temperature</a>
+            <sup class="type-dp" title="data property">dp</sup> 
+            <span class="literal">"25.0"^^<a href="http://www.w3.org/2001/XMLSchema#float"
+                  target="_blank"
+                  title="http://www.w3.org/2001/XMLSchema#float">float</a>
+            </span>
+         </dd>
+         <dd>
+            <a href="#hasSurfaceArea" title="http://xuanliu-1.github.io/npo#hasSurfaceArea">has surface area</a>
+            <sup class="type-dp" title="data property">dp</sup> 
+            <span class="literal">"30.0"^^<a href="http://www.w3.org/2001/XMLSchema#float"
+                  target="_blank"
+                  title="http://www.w3.org/2001/XMLSchema#float">float</a>
+            </span>
+         </dd>
+         <dd>
+            <a href="#hasTilt" title="http://xuanliu-1.github.io/npo#hasTilt">has tilt</a>
+            <sup class="type-dp" title="data property">dp</sup> 
+            <span class="literal">"30.0"^^<a href="http://www.w3.org/2001/XMLSchema#float"
+                  target="_blank"
+                  title="http://www.w3.org/2001/XMLSchema#float">float</a>
+            </span>
+         </dd>
+         <dt>is also defined as</dt>
+         <dd>
+            <a href="#PVModule">class</a>
+         </dd>
+      </dl>
+   </div>
+</div><div id="legend">
+<h2>Legend <span class="backlink"> back to <a href="#toc">ToC</a></span></h2>
+<div   class="entity">
+<sup class="type-c" title="Classes">c</sup>: Classes <br/>
+<sup class="type-op" title="Object Properties">op</sup>: Object Properties <br/>
+<sup class="type-dp" title="Data Properties">dp</sup>: Data Properties <br/>
+<sup class="type-ni" title="Named Individuals">ni</sup>: Named Individuals
+</div>
+</div>

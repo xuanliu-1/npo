@@ -1,0 +1,512 @@
+@prefix : <http://xuanliu-1.github.io/npo#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://xuanliu-1.github.io/npo#> .
+
+<http://xuanliu-1.github.io/npo> rdf:type owl:Ontology ;
+                                  owl:versionIRI <http://xuanliu-1.github.io/npo> ;
+                                  <http://purl.org/dc/terms/title> "Neighbourhood Photovoltaic Generation Ontology"@en ;
+                                  :preferredNameSpacePrefix "The Neighbourhood Photovoltaic Generation Ontology (NPO) aims to consolidate diverse photovoltaic (PV) generation data at the neighbourhood scale. Its goal is to support the estimation of PV generation and informed decision-making for micro-scale sustainable urban planning initiatives."@en ,
+                                                            "npo" .
+
+#################################################################
+#    Annotation properties
+#################################################################
+
+###  http://purl.org/dc/terms/creator
+<http://purl.org/dc/terms/creator> rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/terms/description
+<http://purl.org/dc/terms/description> rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/terms/title
+<http://purl.org/dc/terms/title> rdf:type owl:AnnotationProperty .
+
+
+###  http://xuanliu-1.github.io/npo#preferredNameSpacePrefix
+:preferredNameSpacePrefix rdf:type owl:AnnotationProperty .
+
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  http://xuanliu-1.github.io/npo#containsZone
+:containsZone rdf:type owl:ObjectProperty ;
+              rdfs:domain :Neighbourhood ;
+              rdfs:range :Building ;
+              rdfs:label "containsZone" .
+
+
+###  http://xuanliu-1.github.io/npo#hasConstant
+:hasConstant rdf:type owl:ObjectProperty ;
+             rdfs:domain :PVModule ;
+             rdfs:range :Constant ;
+             rdfs:label "hasConstant" .
+
+
+###  http://xuanliu-1.github.io/npo#hasProperty
+:hasProperty rdf:type owl:ObjectProperty ;
+             rdfs:domain :Neighbourhood ;
+             rdfs:range :Meteorogical ,
+                        :WeatherRecord ;
+             rdfs:label "hasProperty" .
+
+
+###  http://xuanliu-1.github.io/npo#hasResult
+:hasResult rdf:type owl:ObjectProperty ;
+           rdfs:domain :Meteorogical ,
+                       :WeatherRecord ;
+           rdfs:label "hasResult" .
+
+
+###  http://xuanliu-1.github.io/npo#hasRoofType
+:hasRoofType rdf:type owl:ObjectProperty ;
+             rdfs:subPropertyOf owl:topObjectProperty ;
+             rdfs:domain :Roof .
+
+
+###  http://xuanliu-1.github.io/npo#isLocatedIn
+:isLocatedIn rdf:type owl:ObjectProperty ;
+             rdfs:domain :Building ;
+             rdfs:range :Neighbourhood ;
+             rdfs:label "isLocatedIn" .
+
+
+###  http://xuanliu-1.github.io/npo#isPartOf
+:isPartOf rdf:type owl:ObjectProperty ;
+          rdfs:domain :PVArray ,
+                      :PVModule ,
+                      :PVPanel ,
+                      :SolarCell ;
+          rdfs:range :PVArray ,
+                     :PVModule ,
+                     :PVPanel ,
+                     :PVSystem ;
+          rdfs:label "isPartOf" .
+
+
+#################################################################
+#    Data properties
+#################################################################
+
+###  http://xuanliu-1.github.io/npo#hasAzimuth
+:hasAzimuth rdf:type owl:DatatypeProperty ;
+            rdfs:domain :PVModule .
+
+
+###  http://xuanliu-1.github.io/npo#hasBAPVAlbedoFactor
+:hasBAPVAlbedoFactor rdf:type owl:DatatypeProperty ;
+                     rdfs:domain :Constant .
+
+
+###  http://xuanliu-1.github.io/npo#hasBandgapUtilization
+:hasBandgapUtilization rdf:type owl:DatatypeProperty .
+
+
+###  http://xuanliu-1.github.io/npo#hasBoltzmannConstant
+:hasBoltzmannConstant rdf:type owl:DatatypeProperty ;
+                      rdfs:domain :Constant .
+
+
+###  http://xuanliu-1.github.io/npo#hasCableLossFactor
+:hasCableLossFactor rdf:type owl:DatatypeProperty ;
+                    rdfs:domain :Constant .
+
+
+###  http://xuanliu-1.github.io/npo#hasConfigurationMode
+:hasConfigurationMode rdf:type owl:DatatypeProperty ;
+                      rdfs:domain :PVModule .
+
+
+###  http://xuanliu-1.github.io/npo#hasConstantA
+:hasConstantA rdf:type owl:DatatypeProperty ;
+              rdfs:domain :Constant .
+
+
+###  http://xuanliu-1.github.io/npo#hasConstantB
+:hasConstantB rdf:type owl:DatatypeProperty ;
+              rdfs:domain :Constant .
+
+
+###  http://xuanliu-1.github.io/npo#hasDiodeIdealityFactorForMono-Si
+:hasDiodeIdealityFactorForMono-Si rdf:type owl:DatatypeProperty ;
+                                  rdfs:domain :Constant .
+
+
+###  http://xuanliu-1.github.io/npo#hasDiodeIdealityFactorForPoly-Si
+:hasDiodeIdealityFactorForPoly-Si rdf:type owl:DatatypeProperty ;
+                                  rdfs:domain :Constant .
+
+
+###  http://xuanliu-1.github.io/npo#hasDiodeIdealityFactorForThin-film
+:hasDiodeIdealityFactorForThin-film rdf:type owl:DatatypeProperty ;
+                                    rdfs:domain :Constant .
+
+
+###  http://xuanliu-1.github.io/npo#hasElementaryCharge
+:hasElementaryCharge rdf:type owl:DatatypeProperty ;
+                     rdfs:domain :Constant .
+
+
+###  http://xuanliu-1.github.io/npo#hasFSPVAlbedoFactor
+:hasFSPVAlbedoFactor rdf:type owl:DatatypeProperty ;
+                     rdfs:domain :Constant .
+
+
+###  http://xuanliu-1.github.io/npo#hasFillFactor
+:hasFillFactor rdf:type owl:DatatypeProperty ;
+               rdfs:domain :Constant .
+
+
+###  http://xuanliu-1.github.io/npo#hasInverterEfficiency
+:hasInverterEfficiency rdf:type owl:DatatypeProperty ;
+                       rdfs:domain :Constant .
+
+
+###  http://xuanliu-1.github.io/npo#hasMismatchLoss
+:hasMismatchLoss rdf:type owl:DatatypeProperty ;
+                 rdfs:domain :Constant .
+
+
+###  http://xuanliu-1.github.io/npo#hasModuleLength
+:hasModuleLength rdf:type owl:DatatypeProperty ;
+                 rdfs:domain :Constant .
+
+
+###  http://xuanliu-1.github.io/npo#hasModuleTechnology
+:hasModuleTechnology rdf:type owl:DatatypeProperty ;
+                     rdfs:domain :PVModule .
+
+
+###  http://xuanliu-1.github.io/npo#hasModuleTemperature
+:hasModuleTemperature rdf:type owl:DatatypeProperty ;
+                      rdfs:domain :PVModule .
+
+
+###  http://xuanliu-1.github.io/npo#hasModuleWidth
+:hasModuleWidth rdf:type owl:DatatypeProperty ;
+                rdfs:domain :Constant .
+
+
+###  http://xuanliu-1.github.io/npo#hasNonAbsorption
+:hasNonAbsorption rdf:type owl:DatatypeProperty .
+
+
+###  http://xuanliu-1.github.io/npo#hasNumberOfSeriesConnectedCell
+:hasNumberOfSeriesConnectedCell rdf:type owl:DatatypeProperty .
+
+
+###  http://xuanliu-1.github.io/npo#hasOrientation
+:hasOrientation rdf:type owl:DatatypeProperty ;
+                rdfs:domain :PVModule .
+
+
+###  http://xuanliu-1.github.io/npo#hasReflectanceLossFactor
+:hasReflectanceLossFactor rdf:type owl:DatatypeProperty ;
+                          rdfs:domain :Constant .
+
+
+###  http://xuanliu-1.github.io/npo#hasRowSpace
+:hasRowSpace rdf:type owl:DatatypeProperty ;
+             rdfs:domain :PVModule .
+
+
+###  http://xuanliu-1.github.io/npo#hasShadedArea
+:hasShadedArea rdf:type owl:DatatypeProperty ;
+               rdfs:domain :PVModule .
+
+
+###  http://xuanliu-1.github.io/npo#hasShadedLength
+:hasShadedLength rdf:type owl:DatatypeProperty ;
+                 rdfs:domain :PVModule .
+
+
+###  http://xuanliu-1.github.io/npo#hasShadingLossFactorForBAPV
+:hasShadingLossFactorForBAPV rdf:type owl:DatatypeProperty ;
+                             rdfs:domain :Constant .
+
+
+###  http://xuanliu-1.github.io/npo#hasShadingLossFactorForFSPV
+:hasShadingLossFactorForFSPV rdf:type owl:DatatypeProperty ;
+                             rdfs:domain :Constant .
+
+
+###  http://xuanliu-1.github.io/npo#hasSoilingLossFactor
+:hasSoilingLossFactor rdf:type owl:DatatypeProperty ;
+                      rdfs:domain :Constant .
+
+
+###  http://xuanliu-1.github.io/npo#hasStandardModuleTemperature
+:hasStandardModuleTemperature rdf:type owl:DatatypeProperty .
+
+
+###  http://xuanliu-1.github.io/npo#hasStandardTestConditionIrradiance
+:hasStandardTestConditionIrradiance rdf:type owl:DatatypeProperty .
+
+
+###  http://xuanliu-1.github.io/npo#hasSurfaceArea
+:hasSurfaceArea rdf:type owl:DatatypeProperty ;
+                rdfs:domain :PVModule .
+
+
+###  http://xuanliu-1.github.io/npo#hasSystemType
+:hasSystemType rdf:type owl:DatatypeProperty .
+
+
+###  http://xuanliu-1.github.io/npo#hasThermalization
+:hasThermalization rdf:type owl:DatatypeProperty .
+
+
+###  http://xuanliu-1.github.io/npo#hasTilt
+:hasTilt rdf:type owl:DatatypeProperty ;
+         rdfs:domain :PVModule .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://xuanliu-1.github.io/npo#BAPV
+:BAPV rdf:type owl:Class ;
+      rdfs:subClassOf :PVSystem ,
+                      [ rdf:type owl:Restriction ;
+                        owl:onProperty :isPartOf ;
+                        owl:someValuesFrom :Roof
+                      ] ;
+      owl:disjointWith :FSPV .
+
+
+###  http://xuanliu-1.github.io/npo#Building
+:Building rdf:type owl:Class ;
+          rdfs:subClassOf [ rdf:type owl:Restriction ;
+                            owl:onProperty :isLocatedIn ;
+                            owl:someValuesFrom :Neighbourhood
+                          ] .
+
+
+###  http://xuanliu-1.github.io/npo#Constant
+:Constant rdf:type owl:Class .
+
+
+###  http://xuanliu-1.github.io/npo#FSPV
+:FSPV rdf:type owl:Class ;
+      rdfs:subClassOf :PVSystem ,
+                      [ rdf:type owl:Restriction ;
+                        owl:onProperty :isPartOf ;
+                        owl:someValuesFrom :Neighbourhood
+                      ] .
+
+
+###  http://xuanliu-1.github.io/npo#Meteorogical
+:Meteorogical rdf:type owl:Class ;
+              rdfs:comment "Meteorological query from database." ;
+              rdfs:label "Meteorological" .
+
+
+###  http://xuanliu-1.github.io/npo#Neighbourhood
+:Neighbourhood rdf:type owl:Class ;
+               rdfs:subClassOf [ rdf:type owl:Restriction ;
+                                 owl:onProperty :hasProperty ;
+                                 owl:someValuesFrom :Meteorogical
+                               ] ,
+                               [ rdf:type owl:Restriction ;
+                                 owl:onProperty :hasProperty ;
+                                 owl:someValuesFrom :WeatherRecord
+                               ] .
+
+
+###  http://xuanliu-1.github.io/npo#PVArray
+:PVArray rdf:type owl:Class ;
+         rdfs:subClassOf [ rdf:type owl:Restriction ;
+                           owl:onProperty :hasConstant ;
+                           owl:someValuesFrom :Constant
+                         ] ,
+                         [ rdf:type owl:Restriction ;
+                           owl:onProperty :isPartOf ;
+                           owl:someValuesFrom :PVSystem
+                         ] .
+
+
+###  http://xuanliu-1.github.io/npo#PVModule
+:PVModule rdf:type owl:Class ;
+          rdfs:subClassOf [ rdf:type owl:Restriction ;
+                            owl:onProperty :isPartOf ;
+                            owl:someValuesFrom :PVPanel
+                          ] .
+
+
+###  http://xuanliu-1.github.io/npo#PVPanel
+:PVPanel rdf:type owl:Class ;
+         rdfs:subClassOf [ rdf:type owl:Restriction ;
+                           owl:onProperty :isPartOf ;
+                           owl:someValuesFrom :PVArray
+                         ] .
+
+
+###  http://xuanliu-1.github.io/npo#PVSystem
+:PVSystem rdf:type owl:Class .
+
+
+###  http://xuanliu-1.github.io/npo#Roof
+:Roof rdf:type owl:Class ;
+      rdfs:subClassOf [ rdf:type owl:Restriction ;
+                        owl:onProperty :isPartOf ;
+                        owl:someValuesFrom :Building
+                      ] .
+
+
+###  http://xuanliu-1.github.io/npo#SolarCell
+:SolarCell rdf:type owl:Class ;
+           rdfs:subClassOf [ rdf:type owl:Restriction ;
+                             owl:onProperty :isPartOf ;
+                             owl:someValuesFrom :PVModule
+                           ] .
+
+
+###  http://xuanliu-1.github.io/npo#WeatherRecord
+:WeatherRecord rdf:type owl:Class ;
+               rdfs:comment "WeatherRecord query from database." ;
+               rdfs:label "WeatherRecord" .
+
+
+#################################################################
+#    Individuals
+#################################################################
+
+###  http://xuanliu-1.github.io/npo#Building
+:Building rdf:type owl:NamedIndividual .
+
+
+###  http://xuanliu-1.github.io/npo#Constant
+:Constant rdf:type owl:NamedIndividual ;
+          :hasBAPVAlbedoFactor "0.15"^^xsd:float ;
+          :hasBoltzmannConstant "1.38"^^xsd:float ;
+          :hasCableLossFactor "0.005"^^xsd:float ;
+          :hasConstantA "-0.01"^^xsd:float ;
+          :hasConstantB "-0.02"^^xsd:float ;
+          :hasDiodeIdealityFactorForMono-Si "1.0"^^xsd:float ;
+          :hasDiodeIdealityFactorForPoly-Si "1.5"^^xsd:float ;
+          :hasDiodeIdealityFactorForThin-film "2.0"^^xsd:float ;
+          :hasElementaryCharge "1.602"^^xsd:float ;
+          :hasFSPVAlbedoFactor "0.24"^^xsd:float ;
+          :hasFillFactor "1.0"^^xsd:float ;
+          :hasMismatchLoss "0.015"^^xsd:float ;
+          :hasReflectanceLossFactor "0.04"^^xsd:float ;
+          :hasShadingLossFactorForBAPV "0.0688"^^xsd:float ;
+          :hasShadingLossFactorForFSPV "0.0"^^xsd:float ;
+          :hasSoilingLossFactor "8.3E-4"^^xsd:float .
+
+
+###  http://xuanliu-1.github.io/npo#Neighbourhood
+:Neighbourhood rdf:type owl:NamedIndividual .
+
+
+###  http://xuanliu-1.github.io/npo#PVArray
+:PVArray rdf:type owl:NamedIndividual .
+
+
+###  http://xuanliu-1.github.io/npo#PVModule
+:PVModule rdf:type owl:NamedIndividual ;
+          :hasAzimuth "180.0"^^xsd:float ,
+                      "270.0"^^xsd:float ,
+                      "90.0"^^xsd:float ;
+          :hasConfigurationMode "EW" ,
+                                "east" ,
+                                "south" ,
+                                "west" ;
+          :hasModuleLength "3.0"^^xsd:float ;
+          :hasModuleTechnology "c-Si" ,
+                               "poly-Si" ,
+                               "thin-film" ;
+          :hasModuleTemperature "23.0"^^xsd:float ;
+          :hasModuleWidth "1.0"^^xsd:float ;
+          :hasNumberOfSeriesConnectedCell "30.0"^^xsd:float ;
+          :hasOrientation "landscape" ,
+                          "portrait" ;
+          :hasRowSpace "2.0"^^xsd:float ;
+          :hasShadedArea "5.0"^^xsd:float ;
+          :hasShadedLength "0.5"^^xsd:float ;
+          :hasStandardModuleTemperature "25.0"^^xsd:float ;
+          :hasSurfaceArea "30.0"^^xsd:float ;
+          :hasTilt "30.0"^^xsd:float .
+
+
+###  http://xuanliu-1.github.io/npo#PVPanel
+:PVPanel rdf:type owl:NamedIndividual .
+
+
+###  http://xuanliu-1.github.io/npo#PVSystem
+:PVSystem rdf:type owl:NamedIndividual .
+
+
+###  http://xuanliu-1.github.io/npo#Roof
+:Roof rdf:type owl:NamedIndividual .
+
+
+###  http://xuanliu-1.github.io/npo#SolarCell
+:SolarCell rdf:type owl:NamedIndividual .
+
+
+#################################################################
+#    Annotations
+#################################################################
+
+:Building rdfs:comment "A building located in a neighbourhood." ;
+          rdfs:label "Building" .
+
+
+:Constant rdfs:comment "Constants for PV generation estimation." ;
+          rdfs:label "Constant" .
+
+
+:Neighbourhood rdfs:comment "A neighbourhood." ;
+               rdfs:label "Neighbourhood" .
+
+
+:PVArray rdfs:comment "The components consist of a PV system." ;
+         rdfs:label "PVArray" .
+
+
+:PVModule rdfs:comment "The components consist of a PV panel." ;
+          rdfs:label "PVModule" .
+
+
+:PVPanel rdfs:comment "The components consist of a PV Array." ;
+         rdfs:label "PVPanel" .
+
+
+:Roof rdfs:comment "An element of a building." ;
+      rdfs:label "Roof" .
+
+
+:SolarCell rdfs:comment "The components consist of a PV module." ;
+           rdfs:label "SolarCell" .
+
+
+#################################################################
+#    General axioms
+#################################################################
+
+[ rdf:type owl:AllDisjointClasses ;
+  owl:members ( :Building
+                :Constant
+                :Meteorogical
+                :Neighbourhood
+                :PVArray
+                :PVModule
+                :PVPanel
+                :PVSystem
+                :Roof
+                :SolarCell
+                :WeatherRecord
+              )
+] .
+
+
+###  Generated by the OWL API (version 5.1.18) https://github.com/owlcs/owlapi/

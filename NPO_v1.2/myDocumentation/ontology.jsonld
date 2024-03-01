@@ -1,0 +1,717 @@
+[ {
+  "@id" : "_:genid1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://xuanliu-1.github.io/npo#isPartOf"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://xuanliu-1.github.io/npo#Roof"
+  } ]
+}, {
+  "@id" : "_:genid10",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://xuanliu-1.github.io/npo#isPartOf"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://xuanliu-1.github.io/npo#Building"
+  } ]
+}, {
+  "@id" : "_:genid11",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://xuanliu-1.github.io/npo#isPartOf"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://xuanliu-1.github.io/npo#PVModule"
+  } ]
+}, {
+  "@id" : "_:genid12",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
+  "http://www.w3.org/2002/07/owl#members" : [ {
+    "@list" : [ {
+      "@id" : "http://xuanliu-1.github.io/npo#Building"
+    }, {
+      "@id" : "http://xuanliu-1.github.io/npo#Constant"
+    }, {
+      "@id" : "http://xuanliu-1.github.io/npo#Meteorogical"
+    }, {
+      "@id" : "http://xuanliu-1.github.io/npo#Neighbourhood"
+    }, {
+      "@id" : "http://xuanliu-1.github.io/npo#PVArray"
+    }, {
+      "@id" : "http://xuanliu-1.github.io/npo#PVModule"
+    }, {
+      "@id" : "http://xuanliu-1.github.io/npo#PVPanel"
+    }, {
+      "@id" : "http://xuanliu-1.github.io/npo#PVSystem"
+    }, {
+      "@id" : "http://xuanliu-1.github.io/npo#Roof"
+    }, {
+      "@id" : "http://xuanliu-1.github.io/npo#SolarCell"
+    }, {
+      "@id" : "http://xuanliu-1.github.io/npo#WeatherRecord"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://xuanliu-1.github.io/npo#isLocatedIn"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://xuanliu-1.github.io/npo#Neighbourhood"
+  } ]
+}, {
+  "@id" : "_:genid3",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://xuanliu-1.github.io/npo#isPartOf"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://xuanliu-1.github.io/npo#Neighbourhood"
+  } ]
+}, {
+  "@id" : "_:genid4",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://xuanliu-1.github.io/npo#hasProperty"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://xuanliu-1.github.io/npo#Meteorogical"
+  } ]
+}, {
+  "@id" : "_:genid5",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://xuanliu-1.github.io/npo#hasProperty"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://xuanliu-1.github.io/npo#WeatherRecord"
+  } ]
+}, {
+  "@id" : "_:genid6",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://xuanliu-1.github.io/npo#hasConstant"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://xuanliu-1.github.io/npo#Constant"
+  } ]
+}, {
+  "@id" : "_:genid7",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://xuanliu-1.github.io/npo#isPartOf"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://xuanliu-1.github.io/npo#PVSystem"
+  } ]
+}, {
+  "@id" : "_:genid8",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://xuanliu-1.github.io/npo#isPartOf"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://xuanliu-1.github.io/npo#PVPanel"
+  } ]
+}, {
+  "@id" : "_:genid9",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://xuanliu-1.github.io/npo#isPartOf"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://xuanliu-1.github.io/npo#PVArray"
+  } ]
+}, {
+  "@id" : "http://purl.org/dc/terms/creator",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/terms/description",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/terms/title",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://xuanliu-1.github.io/npo",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ],
+  "http://purl.org/dc/terms/title" : [ {
+    "@language" : "en",
+    "@value" : "Neighbourhood Photovoltaic Generation Ontology"
+  } ],
+  "http://www.w3.org/2002/07/owl#versionIRI" : [ {
+    "@id" : "http://xuanliu-1.github.io/npo"
+  } ],
+  "http://xuanliu-1.github.io/npo#preferredNameSpacePrefix" : [ {
+    "@language" : "en",
+    "@value" : "The Neighbourhood Photovoltaic Generation Ontology (NPO) aims to consolidate diverse photovoltaic (PV) generation data at the neighbourhood scale. Its goal is to support the estimation of PV generation and informed decision-making for micro-scale sustainable urban planning initiatives."
+  }, {
+    "@value" : "npo"
+  } ]
+}, {
+  "@id" : "http://xuanliu-1.github.io/npo#BAPV",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://xuanliu-1.github.io/npo#PVSystem"
+  }, {
+    "@id" : "_:genid1"
+  } ],
+  "http://www.w3.org/2002/07/owl#disjointWith" : [ {
+    "@id" : "http://xuanliu-1.github.io/npo#FSPV"
+  } ]
+}, {
+  "@id" : "http://xuanliu-1.github.io/npo#Building",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "A building located in a neighbourhood."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Building"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "_:genid2"
+  } ]
+}, {
+  "@id" : "http://xuanliu-1.github.io/npo#Constant",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Constants for PV generation estimation."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Constant"
+  } ],
+  "http://xuanliu-1.github.io/npo#hasBAPVAlbedoFactor" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#float",
+    "@value" : "0.15"
+  } ],
+  "http://xuanliu-1.github.io/npo#hasBoltzmannConstant" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#float",
+    "@value" : "1.38"
+  } ],
+  "http://xuanliu-1.github.io/npo#hasCableLossFactor" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#float",
+    "@value" : "0.005"
+  } ],
+  "http://xuanliu-1.github.io/npo#hasConstantA" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#float",
+    "@value" : "-0.01"
+  } ],
+  "http://xuanliu-1.github.io/npo#hasConstantB" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#float",
+    "@value" : "-0.02"
+  } ],
+  "http://xuanliu-1.github.io/npo#hasDiodeIdealityFactorForMono-Si" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#float",
+    "@value" : "1.0"
+  } ],
+  "http://xuanliu-1.github.io/npo#hasDiodeIdealityFactorForPoly-Si" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#float",
+    "@value" : "1.5"
+  } ],
+  "http://xuanliu-1.github.io/npo#hasDiodeIdealityFactorForThin-film" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#float",
+    "@value" : "2.0"
+  } ],
+  "http://xuanliu-1.github.io/npo#hasElementaryCharge" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#float",
+    "@value" : "1.602"
+  } ],
+  "http://xuanliu-1.github.io/npo#hasFSPVAlbedoFactor" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#float",
+    "@value" : "0.24"
+  } ],
+  "http://xuanliu-1.github.io/npo#hasFillFactor" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#float",
+    "@value" : "1.0"
+  } ],
+  "http://xuanliu-1.github.io/npo#hasMismatchLoss" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#float",
+    "@value" : "0.015"
+  } ],
+  "http://xuanliu-1.github.io/npo#hasReflectanceLossFactor" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#float",
+    "@value" : "0.04"
+  } ],
+  "http://xuanliu-1.github.io/npo#hasShadingLossFactorForBAPV" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#float",
+    "@value" : "0.0688"
+  } ],
+  "http://xuanliu-1.github.io/npo#hasShadingLossFactorForFSPV" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#float",
+    "@value" : "0.0"
+  } ],
+  "http://xuanliu-1.github.io/npo#hasSoilingLossFactor" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#float",
+    "@value" : "8.3E-4"
+  } ]
+}, {
+  "@id" : "http://xuanliu-1.github.io/npo#FSPV",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://xuanliu-1.github.io/npo#PVSystem"
+  }, {
+    "@id" : "_:genid3"
+  } ]
+}, {
+  "@id" : "http://xuanliu-1.github.io/npo#Meteorogical",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Meteorological query from database."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Meteorological"
+  } ]
+}, {
+  "@id" : "http://xuanliu-1.github.io/npo#Neighbourhood",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "A neighbourhood."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Neighbourhood"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "_:genid4"
+  }, {
+    "@id" : "_:genid5"
+  } ]
+}, {
+  "@id" : "http://xuanliu-1.github.io/npo#PVArray",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "The components consist of a PV system."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "PVArray"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "_:genid6"
+  }, {
+    "@id" : "_:genid7"
+  } ]
+}, {
+  "@id" : "http://xuanliu-1.github.io/npo#PVModule",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "The components consist of a PV panel."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "PVModule"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "_:genid8"
+  } ],
+  "http://xuanliu-1.github.io/npo#hasAzimuth" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#float",
+    "@value" : "180.0"
+  }, {
+    "@type" : "http://www.w3.org/2001/XMLSchema#float",
+    "@value" : "270.0"
+  }, {
+    "@type" : "http://www.w3.org/2001/XMLSchema#float",
+    "@value" : "90.0"
+  } ],
+  "http://xuanliu-1.github.io/npo#hasConfigurationMode" : [ {
+    "@value" : "EW"
+  }, {
+    "@value" : "east"
+  }, {
+    "@value" : "south"
+  }, {
+    "@value" : "west"
+  } ],
+  "http://xuanliu-1.github.io/npo#hasModuleLength" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#float",
+    "@value" : "3.0"
+  } ],
+  "http://xuanliu-1.github.io/npo#hasModuleTechnology" : [ {
+    "@value" : "c-Si"
+  }, {
+    "@value" : "poly-Si"
+  }, {
+    "@value" : "thin-film"
+  } ],
+  "http://xuanliu-1.github.io/npo#hasModuleTemperature" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#float",
+    "@value" : "23.0"
+  } ],
+  "http://xuanliu-1.github.io/npo#hasModuleWidth" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#float",
+    "@value" : "1.0"
+  } ],
+  "http://xuanliu-1.github.io/npo#hasNumberOfSeriesConnectedCell" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#float",
+    "@value" : "30.0"
+  } ],
+  "http://xuanliu-1.github.io/npo#hasOrientation" : [ {
+    "@value" : "landscape"
+  }, {
+    "@value" : "portrait"
+  } ],
+  "http://xuanliu-1.github.io/npo#hasRowSpace" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#float",
+    "@value" : "2.0"
+  } ],
+  "http://xuanliu-1.github.io/npo#hasShadedArea" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#float",
+    "@value" : "5.0"
+  } ],
+  "http://xuanliu-1.github.io/npo#hasShadedLength" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#float",
+    "@value" : "0.5"
+  } ],
+  "http://xuanliu-1.github.io/npo#hasStandardModuleTemperature" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#float",
+    "@value" : "25.0"
+  } ],
+  "http://xuanliu-1.github.io/npo#hasSurfaceArea" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#float",
+    "@value" : "30.0"
+  } ],
+  "http://xuanliu-1.github.io/npo#hasTilt" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#float",
+    "@value" : "30.0"
+  } ]
+}, {
+  "@id" : "http://xuanliu-1.github.io/npo#PVPanel",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "The components consist of a PV Array."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "PVPanel"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "_:genid9"
+  } ]
+}, {
+  "@id" : "http://xuanliu-1.github.io/npo#PVSystem",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "http://xuanliu-1.github.io/npo#Roof",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "An element of a building."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Roof"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "_:genid10"
+  } ]
+}, {
+  "@id" : "http://xuanliu-1.github.io/npo#SolarCell",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "The components consist of a PV module."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "SolarCell"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "_:genid11"
+  } ]
+}, {
+  "@id" : "http://xuanliu-1.github.io/npo#WeatherRecord",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "WeatherRecord query from database."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "WeatherRecord"
+  } ]
+}, {
+  "@id" : "http://xuanliu-1.github.io/npo#containsZone",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://xuanliu-1.github.io/npo#Neighbourhood"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "containsZone"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://xuanliu-1.github.io/npo#Building"
+  } ]
+}, {
+  "@id" : "http://xuanliu-1.github.io/npo#hasAzimuth",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://xuanliu-1.github.io/npo#PVModule"
+  } ]
+}, {
+  "@id" : "http://xuanliu-1.github.io/npo#hasBAPVAlbedoFactor",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://xuanliu-1.github.io/npo#Constant"
+  } ]
+}, {
+  "@id" : "http://xuanliu-1.github.io/npo#hasBandgapUtilization",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ]
+}, {
+  "@id" : "http://xuanliu-1.github.io/npo#hasBoltzmannConstant",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://xuanliu-1.github.io/npo#Constant"
+  } ]
+}, {
+  "@id" : "http://xuanliu-1.github.io/npo#hasCableLossFactor",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://xuanliu-1.github.io/npo#Constant"
+  } ]
+}, {
+  "@id" : "http://xuanliu-1.github.io/npo#hasConfigurationMode",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://xuanliu-1.github.io/npo#PVModule"
+  } ]
+}, {
+  "@id" : "http://xuanliu-1.github.io/npo#hasConstant",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://xuanliu-1.github.io/npo#PVModule"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "hasConstant"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://xuanliu-1.github.io/npo#Constant"
+  } ]
+}, {
+  "@id" : "http://xuanliu-1.github.io/npo#hasConstantA",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://xuanliu-1.github.io/npo#Constant"
+  } ]
+}, {
+  "@id" : "http://xuanliu-1.github.io/npo#hasConstantB",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://xuanliu-1.github.io/npo#Constant"
+  } ]
+}, {
+  "@id" : "http://xuanliu-1.github.io/npo#hasDiodeIdealityFactorForMono-Si",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://xuanliu-1.github.io/npo#Constant"
+  } ]
+}, {
+  "@id" : "http://xuanliu-1.github.io/npo#hasDiodeIdealityFactorForPoly-Si",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://xuanliu-1.github.io/npo#Constant"
+  } ]
+}, {
+  "@id" : "http://xuanliu-1.github.io/npo#hasDiodeIdealityFactorForThin-film",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://xuanliu-1.github.io/npo#Constant"
+  } ]
+}, {
+  "@id" : "http://xuanliu-1.github.io/npo#hasElementaryCharge",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://xuanliu-1.github.io/npo#Constant"
+  } ]
+}, {
+  "@id" : "http://xuanliu-1.github.io/npo#hasFSPVAlbedoFactor",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://xuanliu-1.github.io/npo#Constant"
+  } ]
+}, {
+  "@id" : "http://xuanliu-1.github.io/npo#hasFillFactor",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://xuanliu-1.github.io/npo#Constant"
+  } ]
+}, {
+  "@id" : "http://xuanliu-1.github.io/npo#hasInverterEfficiency",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://xuanliu-1.github.io/npo#Constant"
+  } ]
+}, {
+  "@id" : "http://xuanliu-1.github.io/npo#hasMismatchLoss",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://xuanliu-1.github.io/npo#Constant"
+  } ]
+}, {
+  "@id" : "http://xuanliu-1.github.io/npo#hasModuleLength",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://xuanliu-1.github.io/npo#Constant"
+  } ]
+}, {
+  "@id" : "http://xuanliu-1.github.io/npo#hasModuleTechnology",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://xuanliu-1.github.io/npo#PVModule"
+  } ]
+}, {
+  "@id" : "http://xuanliu-1.github.io/npo#hasModuleTemperature",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://xuanliu-1.github.io/npo#PVModule"
+  } ]
+}, {
+  "@id" : "http://xuanliu-1.github.io/npo#hasModuleWidth",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://xuanliu-1.github.io/npo#Constant"
+  } ]
+}, {
+  "@id" : "http://xuanliu-1.github.io/npo#hasNonAbsorption",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ]
+}, {
+  "@id" : "http://xuanliu-1.github.io/npo#hasNumberOfSeriesConnectedCell",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ]
+}, {
+  "@id" : "http://xuanliu-1.github.io/npo#hasOrientation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://xuanliu-1.github.io/npo#PVModule"
+  } ]
+}, {
+  "@id" : "http://xuanliu-1.github.io/npo#hasProperty",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://xuanliu-1.github.io/npo#Neighbourhood"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "hasProperty"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://xuanliu-1.github.io/npo#Meteorogical"
+  }, {
+    "@id" : "http://xuanliu-1.github.io/npo#WeatherRecord"
+  } ]
+}, {
+  "@id" : "http://xuanliu-1.github.io/npo#hasReflectanceLossFactor",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://xuanliu-1.github.io/npo#Constant"
+  } ]
+}, {
+  "@id" : "http://xuanliu-1.github.io/npo#hasResult",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://xuanliu-1.github.io/npo#Meteorogical"
+  }, {
+    "@id" : "http://xuanliu-1.github.io/npo#WeatherRecord"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "hasResult"
+  } ]
+}, {
+  "@id" : "http://xuanliu-1.github.io/npo#hasRoofType",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://xuanliu-1.github.io/npo#Roof"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
+  } ]
+}, {
+  "@id" : "http://xuanliu-1.github.io/npo#hasRowSpace",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://xuanliu-1.github.io/npo#PVModule"
+  } ]
+}, {
+  "@id" : "http://xuanliu-1.github.io/npo#hasShadedArea",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://xuanliu-1.github.io/npo#PVModule"
+  } ]
+}, {
+  "@id" : "http://xuanliu-1.github.io/npo#hasShadedLength",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://xuanliu-1.github.io/npo#PVModule"
+  } ]
+}, {
+  "@id" : "http://xuanliu-1.github.io/npo#hasShadingLossFactorForBAPV",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://xuanliu-1.github.io/npo#Constant"
+  } ]
+}, {
+  "@id" : "http://xuanliu-1.github.io/npo#hasShadingLossFactorForFSPV",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://xuanliu-1.github.io/npo#Constant"
+  } ]
+}, {
+  "@id" : "http://xuanliu-1.github.io/npo#hasSoilingLossFactor",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://xuanliu-1.github.io/npo#Constant"
+  } ]
+}, {
+  "@id" : "http://xuanliu-1.github.io/npo#hasStandardModuleTemperature",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ]
+}, {
+  "@id" : "http://xuanliu-1.github.io/npo#hasStandardTestConditionIrradiance",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ]
+}, {
+  "@id" : "http://xuanliu-1.github.io/npo#hasSurfaceArea",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://xuanliu-1.github.io/npo#PVModule"
+  } ]
+}, {
+  "@id" : "http://xuanliu-1.github.io/npo#hasSystemType",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ]
+}, {
+  "@id" : "http://xuanliu-1.github.io/npo#hasThermalization",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ]
+}, {
+  "@id" : "http://xuanliu-1.github.io/npo#hasTilt",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://xuanliu-1.github.io/npo#PVModule"
+  } ]
+}, {
+  "@id" : "http://xuanliu-1.github.io/npo#isLocatedIn",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://xuanliu-1.github.io/npo#Building"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "isLocatedIn"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://xuanliu-1.github.io/npo#Neighbourhood"
+  } ]
+}, {
+  "@id" : "http://xuanliu-1.github.io/npo#isPartOf",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://xuanliu-1.github.io/npo#PVArray"
+  }, {
+    "@id" : "http://xuanliu-1.github.io/npo#PVModule"
+  }, {
+    "@id" : "http://xuanliu-1.github.io/npo#PVPanel"
+  }, {
+    "@id" : "http://xuanliu-1.github.io/npo#SolarCell"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "isPartOf"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://xuanliu-1.github.io/npo#PVArray"
+  }, {
+    "@id" : "http://xuanliu-1.github.io/npo#PVModule"
+  }, {
+    "@id" : "http://xuanliu-1.github.io/npo#PVPanel"
+  }, {
+    "@id" : "http://xuanliu-1.github.io/npo#PVSystem"
+  } ]
+}, {
+  "@id" : "http://xuanliu-1.github.io/npo#preferredNameSpacePrefix",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+} ]
